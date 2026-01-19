@@ -20,9 +20,9 @@ LOG_DIR = os.path.join(REPO_ROOT, "logs")
 
 UNIVERSE_DIR = os.path.join(REPO_ROOT, "universes")
 UNIVERSE_FILES = [
-    "sp500.csv",
-    "nasdaq100.csv",
-    "etfs.csv",
+    "sp500_constituents.csv",
+    "nasdaq100_with_baseline.csv",
+    "custom_universe_with_sector_baselines.csv",
     # add "russell1000.csv" later
 ]
 
