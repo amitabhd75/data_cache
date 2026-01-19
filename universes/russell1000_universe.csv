@@ -1,0 +1,976 @@
+Symbol,Sector,BaselineETF
+A,Life Sciences Tools & Services,IWB
+AA,Metals & Mining,IWB
+AAP,Retail,IWB
+AAPL,Technology,XLK
+ABC,,IWB
+ABT,Health Care,XLV
+ACAS,,IWB
+ACC,,IWB
+ACE,,IWB
+ACGL,Insurance,IWB
+ACM,Construction,IWB
+ACN,Technology,XLK
+ADBE,Technology,XLK
+ADI,Semiconductors,IWB
+ADM,Food Products,IWB
+ADP,Professional Services,IWB
+ADS,,IWB
+ADSK,Technology,XLK
+AEE,Utilities,XLU
+AEO,Retail,IWB
+AEP,Utilities,XLU
+AES,Utilities,XLU
+AET,,IWB
+AFG,Insurance,IWB
+AGCO,Machinery,IWB
+AGN,,IWB
+AGNC,Real Estate,XLRE
+AGO,Insurance,IWB
+AGP,,IWB
+AHL,Insurance,IWB
+AIG,Insurance,IWB
+AIV,Real Estate,XLRE
+AIZ,Insurance,IWB
+AJG,Insurance,IWB
+AKAM,Technology,XLK
+AL,Trading Companies & Distributors,IWB
+ALB,Chemicals,IWB
+ALEX,Real Estate,XLRE
+ALL,Insurance,IWB
+ALR,,IWB
+ALSN,Machinery,IWB
+ALTR,Technology,XLK
+ALXN,,IWB
+AMAT,Semiconductors,IWB
+AMCX,Media,IWB
+AMD,Semiconductors,IWB
+AME,Electrical Equipment,IWB
+AMG,Financial Services,IWB
+AMGN,Biotechnology,IWB
+AMP,Financial Services,IWB
+AMT,Real Estate,XLRE
+AMTD,Financial Services,IWB
+AMZN,Retail,IWB
+AN,Retail,IWB
+ANAT,,IWB
+ANF,Retail,IWB
+ANR,,IWB
+ANSS,Technology,XLK
+ANV,,IWB
+AOL,,IWB
+AON,Insurance,IWB
+APA,Energy,XLE
+APC,,IWB
+APD,Chemicals,IWB
+APH,Electrical Equipment,IWB
+APKT,,IWB
+APOL,,IWB
+ARCC,Financial Services,IWB
+ARE,Real Estate,XLRE
+ARG,,IWB
+ARIA,,IWB
+ARW,Electrical Equipment,IWB
+ASBC,,IWB
+ASH,Chemicals,IWB
+ASNA,,IWB
+ATI,Aerospace & Defense,IWB
+ATK,,IWB
+ATML,,IWB
+ATO,Utilities,XLU
+ATR,Packaging,IWB
+ATVI,,IWB
+ATW,,IWB
+AVB,Real Estate,XLRE
+AVGO,Semiconductors,IWB
+AVP,,IWB
+AVT,Electrical Equipment,IWB
+AVX,Food Products,IWB
+AVY,Packaging,IWB
+AWAY,,IWB
+AWH,Health Care,XLV
+AWI,Building,IWB
+AWK,Utilities,XLU
+AXP,Financial Services,IWB
+AXS,Insurance,IWB
+AZO,Retail,IWB
+BA,Aerospace & Defense,IWB
+BAC,Banking,IWB
+BAH,Professional Services,IWB
+BAX,Health Care,XLV
+BBBY,Retail,IWB
+BBT,Banking,IWB
+BBY,Retail,IWB
+BCR,,IWB
+BDN,Real Estate,XLRE
+BDX,Health Care,XLV
+BEAM,Biotechnology,IWB
+BEAV,,IWB
+BEN,Financial Services,IWB
+BF-B,Beverages,IWB
+BG,Food Products,IWB
+BGC,Financial Services,IWB
+BHI,,IWB
+BIG,,IWB
+BIIB,Biotechnology,IWB
+BIO,Life Sciences Tools & Services,IWB
+BK,Financial Services,IWB
+BKD,Health Care,XLV
+BKU,Banking,IWB
+BLK,Financial Services,IWB
+BLL,,IWB
+BMC,,IWB
+BMR,Technology,XLK
+BMRN,Biotechnology,IWB
+BMS,,IWB
+BMY,Pharmaceuticals,IWB
+BOH,Banking,IWB
+BOKF,Banking,IWB
+BPOP,Banking,IWB
+BR,Professional Services,IWB
+BRCD,,IWB
+BRCM,,IWB
+BRE,,IWB
+BRK-B,Financial Services,IWB
+BRKR,Life Sciences Tools & Services,IWB
+BRO,Insurance,IWB
+BSX,Health Care,XLV
+BTU,Energy,XLE
+BWA,Auto Components,IWB
+BWC,,IWB
+BXP,Real Estate,XLRE
+BYI,,IWB
+C,Banking,IWB
+CA,,IWB
+CAG,Food Products,IWB
+CAH,Health Care,XLV
+CAM,,IWB
+CAT,Machinery,IWB
+CB,Insurance,IWB
+CBG,,IWB
+CBI,,IWB
+CBL,Real Estate,XLRE
+CBOE,Financial Services,IWB
+CBS,,IWB
+CBSH,Banking,IWB
+CBT,Chemicals,IWB
+CCE,,IWB
+CCI,Real Estate,XLRE
+CCK,Packaging,IWB
+CCL,"Hotels, Restaurants & Leisure",IWB
+CCO,Media,IWB
+CDNS,Technology,XLK
+CE,Chemicals,IWB
+CELG,,IWB
+CERN,,IWB
+CF,Chemicals,IWB
+CFFN,Banking,IWB
+CFN,,IWB
+CFR,Banking,IWB
+CFX,,IWB
+CHD,Consumer products,IWB
+CHH,"Hotels, Restaurants & Leisure",IWB
+CHK,,IWB
+CHRW,Logistics & Transportation,IWB
+CHS,,IWB
+CHTR,Media,IWB
+CI,Health Care,XLV
+CIE,,IWB
+CIM,Real Estate,XLRE
+CINF,Insurance,IWB
+CIT,,IWB
+CL,Consumer products,IWB
+CLF,Metals & Mining,IWB
+CLGX,,IWB
+CLH,Commercial Services & Supplies,IWB
+CLI,,IWB
+CLR,,IWB
+CLWR,,IWB
+CLX,Consumer products,IWB
+CMA,Banking,IWB
+CMC,Metals & Mining,IWB
+CMCSA,Telecommunication,IWB
+CME,Financial Services,IWB
+CMG,"Hotels, Restaurants & Leisure",IWB
+CMI,Machinery,IWB
+CMP,Metals & Mining,IWB
+CMS,Utilities,XLU
+CNA,Insurance,IWB
+CNH,Machinery,IWB
+CNK,Media,IWB
+CNP,Utilities,XLU
+CNQR,,IWB
+CNW,,IWB
+CNX,Energy,XLE
+COF,Financial Services,IWB
+COG,,IWB
+COH,,IWB
+COL,,IWB
+COO,Health Care,XLV
+COP,Energy,XLE
+COST,Retail,IWB
+COV,,IWB
+CPA,Airlines,IWB
+CPB,Food Products,IWB
+CPN,,IWB
+CPRT,Commercial Services & Supplies,IWB
+CPT,Real Estate,XLRE
+CPWR,N/A,IWB
+CR,Machinery,IWB
+CREE,,IWB
+CRI,"Textiles, Apparel & Luxury Goods",IWB
+CRL,Life Sciences Tools & Services,IWB
+CRM,Technology,XLK
+CRR,,IWB
+CRS,Aerospace & Defense,IWB
+CSC,,IWB
+CSCO,Communications,XLC
+CSE,,IWB
+CSL,Building,IWB
+CSX,Road & Rail,IWB
+CTAS,Commercial Services & Supplies,IWB
+CTL,,IWB
+CTRX,,IWB
+CTSH,Technology,XLK
+CTXS,,IWB
+CVA,,IWB
+CVC,,IWB
+CVD,,IWB
+CVH,,IWB
+CVS,Health Care,XLV
+CVX,Energy,XLE
+CWH,Retail,IWB
+CXO,,IWB
+CXW,Commercial Services & Supplies,IWB
+CY,,IWB
+CYH,Health Care,XLV
+CYN,Technology,XLK
+CYT,,IWB
+D,Utilities,XLU
+DAL,Airlines,IWB
+DBD,Technology,XLK
+DCI,Machinery,IWB
+DD,Chemicals,IWB
+DDR,,IWB
+DDS,Retail,IWB
+DE,Machinery,IWB
+DECK,"Textiles, Apparel & Luxury Goods",IWB
+DEI,Real Estate,XLRE
+DELL,Technology,XLK
+DF,,IWB
+DFS,Financial Services,IWB
+DG,Retail,IWB
+DGX,Health Care,XLV
+DHI,Consumer products,IWB
+DHR,Life Sciences Tools & Services,IWB
+DIS,Media,IWB
+DISCA,,IWB
+DISH,,IWB
+DKS,Retail,IWB
+DLB,Technology,XLK
+DLPH,,IWB
+DLR,Real Estate,XLRE
+DLTR,Retail,IWB
+DNB,Professional Services,IWB
+DNKN,,IWB
+DNR,,IWB
+DO,Energy,XLE
+DOV,Machinery,IWB
+DOW,Chemicals,IWB
+DOX,Technology,XLK
+DPS,,IWB
+DRC,,IWB
+DRE,,IWB
+DRI,"Hotels, Restaurants & Leisure",IWB
+DST,,IWB
+DSW,,IWB
+DTE,Utilities,XLU
+DTV,,IWB
+DUK,Utilities,XLU
+DV,Media,IWB
+DVA,Health Care,XLV
+DVN,Energy,XLE
+DWA,,IWB
+EA,Media,IWB
+EAT,"Hotels, Restaurants & Leisure",IWB
+EBAY,Retail,IWB
+ECL,Chemicals,IWB
+ED,Utilities,XLU
+EFX,Professional Services,IWB
+EGN,,IWB
+EIX,Utilities,XLU
+EL,Consumer products,IWB
+ELS,Real Estate,XLRE
+EMC,,IWB
+EMN,Chemicals,IWB
+EMR,Electrical Equipment,IWB
+ENDP,,IWB
+ENH,,IWB
+ENR,Consumer products,IWB
+EOG,Energy,XLE
+EQIX,Real Estate,XLRE
+EQR,Real Estate,XLRE
+EQT,Energy,XLE
+ERIE,Insurance,IWB
+ESI,Chemicals,IWB
+ESRX,,IWB
+ESS,Real Estate,XLRE
+ETFC,,IWB
+ETN,Electrical Equipment,IWB
+ETR,Utilities,XLU
+EV,,IWB
+EW,Health Care,XLV
+EWBC,Banking,IWB
+EXC,Utilities,XLU
+EXPD,Logistics & Transportation,IWB
+EXPE,"Hotels, Restaurants & Leisure",IWB
+EXR,Real Estate,XLRE
+F,Automobiles,IWB
+FAST,Trading Companies & Distributors,IWB
+FB,,IWB
+FBHS,,IWB
+FCE-A,,IWB
+FCNCA,Banking,IWB
+FCS,,IWB
+FCX,Metals & Mining,IWB
+FDO,,IWB
+FDS,Financial Services,IWB
+FDX,Logistics & Transportation,IWB
+FE,Utilities,XLU
+FFIV,Communications,XLC
+FHN,Banking,IWB
+FII,,IWB
+FIO,,IWB
+FIS,Financial Services,IWB
+FISV,Financial Services,IWB
+FITB,Banking,IWB
+FL,Retail,IWB
+FLIR,,IWB
+FLO,Food Products,IWB
+FLR,Construction,IWB
+FLS,Machinery,IWB
+FLT,,IWB
+FMC,Chemicals,IWB
+FNF,Insurance,IWB
+FNFG,,IWB
+FOSL,"Textiles, Apparel & Luxury Goods",IWB
+FRC,,IWB
+FRT,Real Estate,XLRE
+FRX,,IWB
+FSL,,IWB
+FTI,Energy,XLE
+FTNT,Technology,XLK
+FTR,,IWB
+FULT,Banking,IWB
+G,Professional Services,IWB
+GAS,,IWB
+GCI,,IWB
+GD,Aerospace & Defense,IWB
+GDI,,IWB
+GE,Aerospace & Defense,IWB
+GEF,Packaging,IWB
+GES,Retail,IWB
+GGG,Machinery,IWB
+GGP,,IWB
+GILD,Biotechnology,IWB
+GIS,Food Products,IWB
+GLNG,Energy,XLE
+GLW,Electrical Equipment,IWB
+GM,Automobiles,IWB
+GMCR,,IWB
+GME,Retail,IWB
+GMT,,IWB
+GNC,,IWB
+GNTX,Auto Components,IWB
+GNW,Insurance,IWB
+GOOG,Media,IWB
+GPC,Distributors,IWB
+GPN,Financial Services,IWB
+GPS,,IWB
+GRA,,IWB
+GRMN,Consumer products,IWB
+GRPN,Retail,IWB
+GS,Financial Services,IWB
+GT,Auto Components,IWB
+GTI,Electrical Equipment,IWB
+GWW,Trading Companies & Distributors,IWB
+GXP,,IWB
+H,"Hotels, Restaurants & Leisure",IWB
+HAL,Energy,XLE
+HAR,,IWB
+HAS,Leisure Products,IWB
+HBAN,Banking,IWB
+HBI,"Textiles, Apparel & Luxury Goods",IWB
+HCA,Health Care,XLV
+HCBK,,IWB
+HCC,Metals & Mining,IWB
+HCN,,IWB
+HCP,Technology,XLK
+HD,Retail,IWB
+HE,Utilities,XLU
+HES,Energy,XLE
+HFC,Energy,XLE
+HHC,Real Estate,XLRE
+HIG,Insurance,IWB
+HII,Aerospace & Defense,IWB
+HLF,Consumer products,IWB
+HMA,,IWB
+HME,,IWB
+HNT,,IWB
+HNZ,,IWB
+HOG,Automobiles,IWB
+HOLX,Health Care,XLV
+HON,Industrial Conglomerates,IWB
+HOT,,IWB
+HP,Energy,XLE
+HPQ,Technology,XLK
+HPT,,IWB
+HRB,Diversified Consumer Services,IWB
+HRC,,IWB
+HRL,Food Products,IWB
+HRS,,IWB
+HSC,,IWB
+HSH,,IWB
+HSIC,Health Care,XLV
+HSP,,IWB
+HST,Real Estate,XLRE
+HSY,Food Products,IWB
+HTS,,IWB
+HTZ,Road & Rail,IWB
+HUB-B,,IWB
+HUM,Health Care,XLV
+HUN,Chemicals,IWB
+IACI,,IWB
+IBKR,Financial Services,IWB
+IBM,Technology,XLK
+ICE,Financial Services,IWB
+IDXX,Health Care,XLV
+IEX,Machinery,IWB
+IFF,Chemicals,IWB
+IGT,,IWB
+IHS,Telecommunication,IWB
+ILMN,Life Sciences Tools & Services,IWB
+IM,,IWB
+INCY,Biotechnology,IWB
+INFA,Technology,XLK
+INGR,Food Products,IWB
+INT,,IWB
+INTC,Semiconductors,IWB
+INTU,Technology,XLK
+IP,Packaging,IWB
+IPG,Media,IWB
+IPGP,Electrical Equipment,IWB
+IPI,Chemicals,IWB
+IR,Machinery,IWB
+IRM,Real Estate,XLRE
+ISRG,Health Care,XLV
+IT,Technology,XLK
+ITC,,IWB
+ITRI,Electrical Equipment,IWB
+ITT,Machinery,IWB
+ITW,Machinery,IWB
+IVZ,Financial Services,IWB
+JAH,,IWB
+JBHT,Road & Rail,IWB
+JBL,Electrical Equipment,IWB
+JCI,Building,IWB
+JCP,,IWB
+JDSU,,IWB
+JEC,,IWB
+JKHY,Financial Services,IWB
+JLL,Real Estate,XLRE
+JNJ,Pharmaceuticals,IWB
+JNPR,Communications,XLC
+JNS,,IWB
+JOE,Real Estate,XLRE
+JOY,,IWB
+JPM,Banking,IWB
+JW-A,,IWB
+JWN,Retail,IWB
+K,Food Products,IWB
+KAR,,IWB
+KBR,Professional Services,IWB
+KEX,Marine,IWB
+KEY,Banking,IWB
+KIM,Real Estate,XLRE
+KLAC,Semiconductors,IWB
+KMB,Consumer products,IWB
+KMI,Energy,XLE
+KMPR,Insurance,IWB
+KMT,Machinery,IWB
+KMX,Retail,IWB
+KO,Beverages,IWB
+KORS,,IWB
+KOS,Energy,XLE
+KR,Retail,IWB
+KRC,Real Estate,XLRE
+KRO,Chemicals,IWB
+KSS,Retail,IWB
+KSU,,IWB
+L,Insurance,IWB
+LAMR,Real Estate,XLRE
+LAZ,Financial Services,IWB
+LBTYA,Telecommunication,IWB
+LEA,Auto Components,IWB
+LECO,Machinery,IWB
+LEG,Consumer products,IWB
+LEN,Consumer products,IWB
+LH,Health Care,XLV
+LIFE,,IWB
+LII,Building,IWB
+LINTA,,IWB
+LKQ,Distributors,IWB
+LLL,,IWB
+LLTC,,IWB
+LLY,Pharmaceuticals,IWB
+LM,,IWB
+LMCA,,IWB
+LMT,Aerospace & Defense,IWB
+LNC,Insurance,IWB
+LNG,Energy,XLE
+LNKD,,IWB
+LNT,Utilities,XLU
+LO,,IWB
+LOW,Retail,IWB
+LPI,,IWB
+LPLA,Financial Services,IWB
+LPNT,,IWB
+LPS,,IWB
+LRCX,Semiconductors,IWB
+LRY,,IWB
+LSI,,IWB
+LSTR,Road & Rail,IWB
+LTD,,IWB
+LUK,,IWB
+LUV,Airlines,IWB
+LVLT,,IWB
+LVS,"Hotels, Restaurants & Leisure",IWB
+LXK,,IWB
+LYB,Chemicals,IWB
+M,Retail,IWB
+MA,Financial Services,IWB
+MAA,Real Estate,XLRE
+MAC,Real Estate,XLRE
+MAN,Professional Services,IWB
+MAR,"Hotels, Restaurants & Leisure",IWB
+MAS,Building,IWB
+MAT,Leisure Products,IWB
+MBI,Insurance,IWB
+MCD,"Hotels, Restaurants & Leisure",IWB
+MCHP,Semiconductors,IWB
+MCK,Health Care,XLV
+MCO,Financial Services,IWB
+MCP,,IWB
+MCRS,,IWB
+MCY,Insurance,IWB
+MD,Health Care,XLV
+MDLZ,Food Products,IWB
+MDR,,IWB
+MDRX,Health Care,XLV
+MDT,Health Care,XLV
+MDU,Utilities,XLU
+MDVN,,IWB
+MET,Insurance,IWB
+MFA,Real Estate,XLRE
+MGM,"Hotels, Restaurants & Leisure",IWB
+MHK,Consumer products,IWB
+MHP,,IWB
+MJN,,IWB
+MKC,Food Products,IWB
+MKL,Insurance,IWB
+MLM,Construction,IWB
+MMC,Insurance,IWB
+MMM,Industrial Conglomerates,IWB
+MNST,Beverages,IWB
+MO,Tobacco,IWB
+MOLX,,IWB
+MON,,IWB
+MORN,Financial Services,IWB
+MOS,Chemicals,IWB
+MPC,Energy,XLE
+MRC,Trading Companies & Distributors,IWB
+MRK,Pharmaceuticals,IWB
+MRO,Energy,XLE
+MRVL,Semiconductors,IWB
+MS,Financial Services,IWB
+MSCI,Financial Services,IWB
+MSFT,Technology,XLK
+MSG,,IWB
+MSI,Communications,XLC
+MSM,Trading Companies & Distributors,IWB
+MTB,Banking,IWB
+MTD,Life Sciences Tools & Services,IWB
+MTW,Machinery,IWB
+MU,Semiconductors,IWB
+MUR,Energy,XLE
+MWV,,IWB
+MXIM,,IWB
+MYGN,Biotechnology,IWB
+MYL,,IWB
+N,,IWB
+NATI,,IWB
+NAV,,IWB
+NBL,,IWB
+NBR,Energy,XLE
+NCR,,IWB
+NDAQ,Financial Services,IWB
+NDSN,Machinery,IWB
+NEE,Utilities,XLU
+NEM,Metals & Mining,IWB
+NEU,Chemicals,IWB
+NFG,Utilities,XLU
+NFLX,Media,IWB
+NFX,,IWB
+NI,Utilities,XLU
+NIHD,,IWB
+NKE,"Textiles, Apparel & Luxury Goods",IWB
+NLSN,,IWB
+NLY,Real Estate,XLRE
+NNN,Real Estate,XLRE
+NOC,Aerospace & Defense,IWB
+NOV,Energy,XLE
+NRG,Utilities,XLU
+NSC,Road & Rail,IWB
+NSR,,IWB
+NTAP,Technology,XLK
+NTRS,Financial Services,IWB
+NU,Banking,IWB
+NUAN,,IWB
+NUE,Metals & Mining,IWB
+NUS,Consumer products,IWB
+NVDA,Semiconductors,IWB
+NVE,,IWB
+NVR,Consumer products,IWB
+NWL,Consumer products,IWB
+NWSA,Media,IWB
+NYCB,,IWB
+NYX,N/A,IWB
+O,Real Estate,XLRE
+OC,Building,IWB
+OCR,,IWB
+OFC,,IWB
+OGE,Utilities,XLU
+OI,Packaging,IWB
+OII,Energy,XLE
+OIS,Energy,XLE
+OKE,Energy,XLE
+OMC,Media,IWB
+ONNN,,IWB
+ONXX,,IWB
+ORCL,Technology,XLK
+ORI,Insurance,IWB
+ORLY,Retail,IWB
+OSK,Machinery,IWB
+OXY,Energy,XLE
+P,,IWB
+PAY,Financial Services,IWB
+PAYX,Professional Services,IWB
+PBCT,,IWB
+PBI,Commercial Services & Supplies,IWB
+PCAR,Machinery,IWB
+PCG,Utilities,XLU
+PCL,,IWB
+PCLN,,IWB
+PCP,,IWB
+PCS,,IWB
+PDCO,Health Care,XLV
+PDM,Real Estate,XLRE
+PEG,Utilities,XLU
+PENN,"Hotels, Restaurants & Leisure",IWB
+PEP,Beverages,IWB
+PETM,,IWB
+PFE,Pharmaceuticals,IWB
+PFG,Insurance,IWB
+PG,Consumer products,IWB
+PGR,Insurance,IWB
+PH,Machinery,IWB
+PHM,Consumer products,IWB
+PII,Leisure Products,IWB
+PKG,Packaging,IWB
+PKI,,IWB
+PL,Professional Services,IWB
+PLCM,,IWB
+PLD,Real Estate,XLRE
+PLL,Metals & Mining,IWB
+PM,Tobacco,IWB
+PMCS,,IWB
+PNC,Banking,IWB
+PNR,Machinery,IWB
+PNRA,,IWB
+PNW,Utilities,XLU
+POM,Health Care,XLV
+PPG,Chemicals,IWB
+PPL,Utilities,XLU
+PPO,,IWB
+PPS,,IWB
+PRA,Insurance,IWB
+PRE,Health Care,XLV
+PRGO,Pharmaceuticals,IWB
+PRU,Insurance,IWB
+PSA,Real Estate,XLRE
+PSX,Energy,XLE
+PTEN,Energy,XLE
+PVH,"Textiles, Apparel & Luxury Goods",IWB
+PWR,Construction,IWB
+PX,Financial Services,IWB
+PXD,,IWB
+PXP,,IWB
+QCOM,Semiconductors,IWB
+QEP,,IWB
+QGEN,Life Sciences Tools & Services,IWB
+R,Road & Rail,IWB
+RAH,,IWB
+RAI,,IWB
+RAX,,IWB
+RBC,Machinery,IWB
+RCL,"Hotels, Restaurants & Leisure",IWB
+RDC,,IWB
+RE,,IWB
+REG,Real Estate,XLRE
+REGN,Biotechnology,IWB
+RES,Energy,XLE
+RF,Banking,IWB
+RGA,Insurance,IWB
+RGC,Pharmaceuticals,IWB
+RGLD,Metals & Mining,IWB
+RHI,Professional Services,IWB
+RHT,,IWB
+RJF,Financial Services,IWB
+RKT,Financial Services,IWB
+RL,"Textiles, Apparel & Luxury Goods",IWB
+RMD,Health Care,XLV
+RNR,Insurance,IWB
+ROC,,IWB
+ROK,Electrical Equipment,IWB
+ROL,Commercial Services & Supplies,IWB
+ROP,Technology,XLK
+ROST,Retail,IWB
+ROVI,,IWB
+RPAI,,IWB
+RPM,Chemicals,IWB
+RRC,Energy,XLE
+RRD,,IWB
+RS,Metals & Mining,IWB
+RSG,Commercial Services & Supplies,IWB
+RTN,,IWB
+RVBD,,IWB
+RYN,Real Estate,XLRE
+S,Technology,XLK
+SAI,,IWB
+SATS,Media,IWB
+SBAC,Real Estate,XLRE
+SBH,Retail,IWB
+SBNY,Banking,IWB
+SBUX,"Hotels, Restaurants & Leisure",IWB
+SCCO,Metals & Mining,IWB
+SCG,,IWB
+SCHW,Financial Services,IWB
+SCI,Diversified Consumer Services,IWB
+SD,Energy,XLE
+SE,Retail,IWB
+SEE,Packaging,IWB
+SEIC,Financial Services,IWB
+SFD,Food Products,IWB
+SFG,,IWB
+SHAW,,IWB
+SHLD,,IWB
+SHW,Chemicals,IWB
+SIAL,,IWB
+SIG,Retail,IWB
+SIRI,Media,IWB
+SIRO,,IWB
+SIVB,,IWB
+SJM,Food Products,IWB
+SKT,Real Estate,XLRE
+SLAB,Semiconductors,IWB
+SLB,Energy,XLE
+SLG,Real Estate,XLRE
+SLGN,Packaging,IWB
+SLH,,IWB
+SLM,Financial Services,IWB
+SLXP,,IWB
+SM,Energy,XLE
+SMG,Chemicals,IWB
+SNA,Machinery,IWB
+SNDK,Technology,XLK
+SNH,,IWB
+SNI,,IWB
+SNPS,Technology,XLK
+SNV,Banking,IWB
+SO,Utilities,XLU
+SON,Packaging,IWB
+SPG,Real Estate,XLRE
+SPLK,,IWB
+SPLS,,IWB
+SPN,,IWB
+SPR,Aerospace & Defense,IWB
+SPW,,IWB
+SRCL,Commercial Services & Supplies,IWB
+SRE,Utilities,XLU
+STI,Electrical Equipment,IWB
+STJ,,IWB
+STLD,Metals & Mining,IWB
+STR,Energy,XLE
+STT,Financial Services,IWB
+STZ,Beverages,IWB
+SWI,Technology,XLK
+SWK,Machinery,IWB
+SWKS,Semiconductors,IWB
+SWN,Energy,XLE
+SWY,,IWB
+SYK,Health Care,XLV
+SYMC,,IWB
+SYY,Retail,IWB
+T,Telecommunication,IWB
+TAHO,,IWB
+TAP,Beverages,IWB
+TCB,,IWB
+TCO,,IWB
+TDC,Technology,XLK
+TDG,Aerospace & Defense,IWB
+TDS,Telecommunication,IWB
+TDW,Energy,XLE
+TE,Electrical Equipment,IWB
+TECD,,IWB
+TECH,Life Sciences Tools & Services,IWB
+TEG,,IWB
+TER,Semiconductors,IWB
+TEX,Machinery,IWB
+TFM,,IWB
+TFSL,Banking,IWB
+TFX,Health Care,XLV
+TGI,Aerospace & Defense,IWB
+TGT,Retail,IWB
+THC,Health Care,XLV
+THG,Insurance,IWB
+THO,Automobiles,IWB
+THOR,,IWB
+TIBX,,IWB
+TIE,,IWB
+TIF,,IWB
+TJX,Retail,IWB
+TK,Energy,XLE
+TKR,Machinery,IWB
+TMK,,IWB
+TMO,Life Sciences Tools & Services,IWB
+TOL,Consumer products,IWB
+TPX,,IWB
+TRI,Professional Services,IWB
+TRIP,Media,IWB
+TRMB,Technology,XLK
+TRN,Machinery,IWB
+TROW,Financial Services,IWB
+TRV,Insurance,IWB
+TRW,,IWB
+TSCO,Retail,IWB
+TSLA,Automobiles,IWB
+TSN,Food Products,IWB
+TSO,,IWB
+TSS,,IWB
+TTC,Machinery,IWB
+TUP,,IWB
+TW,Financial Services,IWB
+TWC,,IWB
+TWTC,,IWB
+TWX,,IWB
+TXN,Semiconductors,IWB
+TXT,Aerospace & Defense,IWB
+TYC,,IWB
+UA,"Textiles, Apparel & Luxury Goods",IWB
+UAL,Airlines,IWB
+UDR,Real Estate,XLRE
+UFS,,IWB
+UGI,Utilities,XLU
+UHS,Health Care,XLV
+ULTA,Retail,IWB
+UNH,Health Care,XLV
+UNM,Insurance,IWB
+UNP,Road & Rail,IWB
+UNT,,IWB
+UPL,,IWB
+UPS,Logistics & Transportation,IWB
+URBN,Retail,IWB
+URI,Trading Companies & Distributors,IWB
+URS,,IWB
+USB,Banking,IWB
+USM,,IWB
+UTHR,Biotechnology,IWB
+UTIW,,IWB
+UTX,,IWB
+V,Financial Services,IWB
+VAL,Energy,XLE
+VAR,,IWB
+VC,Auto Components,IWB
+VFC,"Textiles, Apparel & Luxury Goods",IWB
+VIAB,,IWB
+VLO,Energy,XLE
+VLY,Banking,IWB
+VMC,Construction,IWB
+VMED,,IWB
+VMI,Construction,IWB
+VMW,,IWB
+VNO,Real Estate,XLRE
+VNTV,,IWB
+VR,,IWB
+VRSK,Professional Services,IWB
+VRSN,Technology,XLK
+VRTX,Biotechnology,IWB
+VSH,Electrical Equipment,IWB
+VTR,Real Estate,XLRE
+VVC,,IWB
+VZ,Telecommunication,IWB
+WAB,Machinery,IWB
+WAFD,Banking,IWB
+WAG,,IWB
+WAT,Life Sciences Tools & Services,IWB
+WBC,,IWB
+WCC,Trading Companies & Distributors,IWB
+WCN,Commercial Services & Supplies,IWB
+WCRX,,IWB
+WDC,Technology,XLK
+WDR,,IWB
+WEC,Utilities,XLU
+WEN,"Hotels, Restaurants & Leisure",IWB
+WFC,Banking,IWB
+WFM,,IWB
+WHR,Consumer products,IWB
+WIN,,IWB
+WLK,Chemicals,IWB
+WLL,,IWB
+WLP,,IWB
+WLT,,IWB
+WM,Commercial Services & Supplies,IWB
+WMB,Energy,XLE
+WMT,Retail,IWB
+WOOF,Retail,IWB
+WPO,,IWB
+WPX,,IWB
+WR,,IWB
+WRB,Insurance,IWB
+WRI,,IWB
+WSM,Retail,IWB
+WTM,Insurance,IWB
+WTR,,IWB
+WTW,Insurance,IWB
+WU,Financial Services,IWB
+WY,Real Estate,XLRE
+WYN,,IWB
+WYNN,"Hotels, Restaurants & Leisure",IWB
+X,Metals & Mining,IWB
+XCO,,IWB
+XEC,,IWB
+XEL,Utilities,XLU
+XL,,IWB
+XLNX,,IWB
+XLS,,IWB
+XOM,Energy,XLE
+XRAY,Health Care,XLV
+XRX,Technology,XLK
+XYL,Machinery,IWB
+Y,,IWB
+YHOO,,IWB
+YUM,"Hotels, Restaurants & Leisure",IWB
+ZBRA,Electrical Equipment,IWB
+ZION,Banking,IWB
+ZMH,,IWB
+ZNGA,,IWB

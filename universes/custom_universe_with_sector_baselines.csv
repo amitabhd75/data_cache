@@ -1,0 +1,59 @@
+Symbol,Sector,BaselineETF,Owned,EntryPrice
+ABNB,Consumer Discretionary,XLY,N,
+AXTA,Materials,XLB,N,
+BEN,Financials,XLF,N,
+CLF,Materials,XLB,N,
+CNC,Healthcare,XLV,N,
+ADBE,Technology,XLK,Y,355.92
+CNP,Energy,XLE,Y,39.02
+CUZ,Real Estate (REITs),VNQ,Y,26.76
+D,Energy,XLE,Y,60.24
+DVN,Energy,XLE,Y,37.16
+EBAY,Technology,XLK,Y,93.62
+ECL,Materials,XLB,Y,273.03
+EIX,Utilities,XLU,Y,60.39
+ON,Technology,XLK,N,
+OXY,Energy,XLE,N,
+QQQ,Market,QQQ,N,
+GOF,US Bonds,BND,Y,14.87
+GOOG,Technology,XLK,Y,314.94
+SPY,Market,SPY,N,
+TXG,Healthcare,XLV,N,
+UDR,Real Estate (REITs),VNQ,N,
+UEC,Energy,XLE,N,
+HAYW,Industrials,XLI,Y,16.75
+VXX,Volatility,VXX,N,
+WY,Real Estate (REITs),VNQ,N,
+HSIC,Energy,XLE,Y,77.92
+IEF,US Bonds,BND,Y,96.37
+IFN,EMERGING MARKETS,VEA,Y,15.5
+KHC,Consumer Staples,XLP,Y,28.64
+GLD,Gold,GLD,N,
+META,Technology,XLK,Y,666.4
+MORT,US Bonds,BND,Y,11.16
+MSFT,Technology,XLK,Y,486.93
+KWEB,Developed Markets (Intl Equity),VEA,N,
+GF,Developed Markets (Intl Equity),VEA,N,
+ILF,EMERGING MARKETS,VEA,N,
+VYMI,Developed Markets (Intl Equity),VEA,N,
+NKE,Consumer Discretionary,XLY,Y,77.03
+NMZ,US Bonds,BND,Y,10.45
+NVDA,Technology,XLK,Y,188.27
+PHM,Real Estate (REITs),VNQ,Y,133.65
+VWOB,US Bonds,BND,N,
+PM,Consumer Discretionary,XLY,Y,172.39
+USO,Alternative,USO,N,
+SGOL,Gold,SGOL,N,
+SIVR,Silver,SIVR,N,
+ENPH,Energy,XLE,N,
+PTY,US Bonds,BND,Y,14.29
+REYN,Materials,XLB,Y,24.65
+GEHC,Energy,XLE,N,
+RFI,Real Estate (REITs),VNQ,Y,11.95
+ADM,Consumer Staples,XLP,N,
+SON,Materials,XLB,Y,54.77
+TLT,US Bonds,BND,Y,88.88
+TRMB,Technology,XLK,Y,80.75
+UUP,US DOLLAR INDEX,DX-Y.NYB,Y,28.47
+XLRE,Real Estate (REITs),VNQ,Y,43.06
+XYL,Industrials,XLI,Y,139.52

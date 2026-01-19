@@ -1,0 +1,93 @@
+Symbol,Sector,BaselineETF
+AAPL,Technology,XLK
+MSFT,Technology,XLK
+NVDA,Technology,XLK
+AVGO,Technology,XLK
+ADBE,Technology,XLK
+AMD,Technology,XLK
+INTC,Technology,XLK
+CSCO,Technology,XLK
+QCOM,Technology,XLK
+TXN,Technology,XLK
+ADI,Technology,XLK
+AMAT,Technology,XLK
+LRCX,Technology,XLK
+KLAC,Technology,XLK
+ASML,Technology,XLK
+MU,Technology,XLK
+NXPI,Technology,XLK
+PANW,Technology,XLK
+CRWD,Technology,XLK
+ZS,Technology,XLK
+FTNT,Technology,XLK
+SNPS,Technology,XLK
+CDNS,Technology,XLK
+ANSS,Technology,XLK
+DDOG,Technology,XLK
+MDB,Technology,XLK
+NET,Technology,XLK
+TEAM,Technology,XLK
+WDAY,Technology,XLK
+INTU,Technology,XLK
+PYPL,Technology,XLK
+ON,Technology,XLK
+ENPH,Technology,XLK
+,,
+GOOGL,Communication Services,XLC
+GOOG,Communication Services,XLC
+META,Communication Services,XLC
+NFLX,Communication Services,XLC
+TMUS,Communication Services,XLC
+CHTR,Communication Services,XLC
+WBD,Communication Services,XLC
+TTD,Communication Services,XLC
+,,
+AMZN,Consumer Discretionary,XLY
+TSLA,Consumer Discretionary,XLY
+BKNG,Consumer Discretionary,XLY
+ABNB,Consumer Discretionary,XLY
+ROST,Consumer Discretionary,XLY
+ORLY,Consumer Discretionary,XLY
+DLTR,Consumer Discretionary,XLY
+EBAY,Consumer Discretionary,XLY
+JD,Consumer Discretionary,XLY
+PDD,Consumer Discretionary,XLY
+LCID,Consumer Discretionary,XLY
+RIVN,Consumer Discretionary,XLY
+,,
+COST,Consumer Staples,XLP
+PEP,Consumer Staples,XLP
+MDLZ,Consumer Staples,XLP
+KDP,Consumer Staples,XLP
+MNST,Consumer Staples,XLP
+,,
+AMGN,Health Care,XLV
+REGN,Health Care,XLV
+VRTX,Health Care,XLV
+GILD,Health Care,XLV
+BIIB,Health Care,XLV
+ILMN,Health Care,XLV
+DXCM,Health Care,XLV
+IDXX,Health Care,XLV
+ISRG,Health Care,XLV
+ALGN,Health Care,XLV
+MRNA,Health Care,XLV
+,,
+HON,Industrials,XLI
+CTAS,Industrials,XLI
+ODFL,Industrials,XLI
+PCAR,Industrials,XLI
+FAST,Industrials,XLI
+PAYX,Industrials,XLI
+CPRT,Industrials,XLI
+CSGP,Industrials,XLI
+EA,Industrials,XLI
+,,
+AEP,Utilities,XLU
+XEL,Utilities,XLU
+EXC,Utilities,XLU
+,,
+BKR,Energy,XLE
+FANG,Energy,XLE
+,,
+SGEN,Health Care,XLV
