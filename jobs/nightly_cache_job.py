@@ -1,8 +1,9 @@
 import os
 import time
 import json
+import re
 from datetime import date, datetime
-from typing import List, Dict, Any, Optional, Tuple
+from typing import List, Dict, Any, Optional
 
 import pandas as pd
 import requests
@@ -42,9 +43,15 @@ DEFAULT_HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 }
 
+RISK_HIGH = "HIGH"
+RISK_MED = "MED"
+RISK_LOW = "LOW"
+
+FED_FOMC_URL = "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+
 
 # -------------------------
-# Cache helpers (same pattern you use locally)
+# Generic helpers
 # -------------------------
 def _iso(d: date) -> str:
     return d.isoformat()
@@ -52,6 +59,28 @@ def _iso(d: date) -> str:
 def _sym(symbol: str) -> str:
     return str(symbol).upper().strip()
 
+def _clean_spaces(x: Any) -> str:
+    if x is None:
+        return ""
+    s = str(x).replace("\xa0", " ").strip()
+    s = " ".join(s.split())
+    return s
+
+def _to_date(x: Any) -> Optional[date]:
+    if x is None:
+        return None
+    try:
+        dt = pd.to_datetime(x, errors="coerce")
+        if pd.isna(dt):
+            return None
+        return dt.date()
+    except Exception:
+        return None
+
+
+# -------------------------
+# Cache helpers (same pattern you use locally)
+# -------------------------
 def _cache_path(cache_dir: str, symbol: str, d: date) -> str:
     return os.path.join(cache_dir, _iso(d), f"{_sym(symbol)}.json")
 
@@ -95,7 +124,6 @@ def fetch_finnhub_recommendation(symbol: str, api_key: str, session: Optional[re
         r = s.get(url, params=params, timeout=REQ_TIMEOUT)
         out["status"] = r.status_code
 
-        # handle rate limiting upstream
         if r.status_code == 429:
             out["error"] = r.text
             return out
@@ -107,7 +135,6 @@ def fetch_finnhub_recommendation(symbol: str, api_key: str, session: Optional[re
             out["error"] = "empty recommendation list"
             return out
 
-        # pick most recent by 'period'
         def _period(x):
             return str(x.get("period", ""))
 
@@ -121,54 +148,87 @@ def fetch_finnhub_recommendation(symbol: str, api_key: str, session: Optional[re
         return out
 
 
-# -------------------------
-# Macro helpers
-# -------------------------
-RISK_HIGH = "HIGH"
-RISK_MED = "MED"
-RISK_LOW = "LOW"
+# -----------------------------
+# 1) FOMC calendar (Fed) - YOUR FUNCTION (unchanged)
+# -----------------------------
+def fetch_fomc_meetings(year: int, session: Optional[requests.Session] = None) -> pd.DataFrame:
+    """
+    Pulls meeting dates from the Fed FOMC calendar page.
 
-def _clean_spaces(x: Any) -> str:
-    if x is None:
-        return ""
-    s = str(x).replace("\xa0", " ").strip()
-    s = " ".join(s.split())
-    return s
+    Returns columns:
+      EventDate, EventName, Category, Impact, Source, Details
+    """
+    s = session or requests.Session()
+    r = s.get(FED_FOMC_URL, headers=DEFAULT_HEADERS, timeout=30)
+    r.raise_for_status()
+    html = r.text
 
-def _to_date(x: Any) -> Optional[date]:
-    if x is None:
-        return None
-    try:
-        dt = pd.to_datetime(x, errors="coerce")
-        if pd.isna(dt):
-            return None
-        return dt.date()
-    except Exception:
-        return None
+    start_pat = re.compile(rf"{year}\s+FOMC\s+Meetings", re.IGNORECASE)
+    m = start_pat.search(html)
+    if not m:
+        return pd.DataFrame(columns=["EventDate", "EventName", "Category", "Impact", "Source", "Details"])
 
-def _impact_from_text(s: str) -> str:
-    s = (s or "").upper()
-    if "HIGH" in s:
-        return RISK_HIGH
-    if "MED" in s or "MEDIUM" in s:
-        return RISK_MED
-    if "LOW" in s:
-        return RISK_LOW
-    # if no explicit impact, default MED for Fed/FOMC style, LOW for misc
-    return ""
+    window = html[m.start():]
+    next_year_pat = re.compile(rf"{year+1}\s+FOMC\s+Meetings", re.IGNORECASE)
+    n = next_year_pat.search(window)
+    if n:
+        window = window[:n.start()]
+
+    month_names = (
+        "January February March April May June July August September October November December"
+    ).split()
+    dayrange_pat = re.compile(r"(?P<d1>\d{1,2})\s*-\s*(?P<d2>\d{1,2})(?P<star>\*)?")
+
+    text = re.sub(r"<[^>]+>", " ", window)
+    text = _clean_spaces(text)
+
+    tokens = text.split(" ")
+    rows: List[Dict[str, Any]] = []
+    i = 0
+    current_month: Optional[str] = None
+
+    while i < len(tokens):
+        t = tokens[i]
+        if t in month_names:
+            current_month = t
+            i += 1
+            continue
+
+        if current_month:
+            mdr = dayrange_pat.match(t)
+            if mdr:
+                d1 = int(mdr.group("d1"))
+                d2 = int(mdr.group("d2"))
+                month_num = month_names.index(current_month) + 1
+                start_dt = date(year, month_num, d1)
+
+                details = f"{current_month} {d1}-{d2}" + (" (press conf*)" if mdr.group("star") else "")
+                rows.append({
+                    "EventDate": start_dt,
+                    "EventName": "FOMC Meeting (Start)",
+                    "Category": "FOMC",
+                    "Impact": RISK_HIGH,
+                    "Source": "Federal Reserve",
+                    "Details": details,
+                })
+        i += 1
+
+    df = pd.DataFrame(rows)
+    if not df.empty:
+        df = df.sort_values("EventDate").reset_index(drop=True)
+    return df
 
 
 # -----------------------------
-# BLS release schedule (CPI, Jobs, PPI, etc.)
-# Produces Date,Event,Impact
+# 2) BLS release schedule (CPI, Jobs, PPI, etc.) - YOUR FUNCTION (as shared)
 # -----------------------------
 def fetch_bls_schedule(year: int, session: Optional[requests.Session] = None) -> pd.DataFrame:
     """
     Pulls the BLS schedule for a given year from:
       https://www.bls.gov/schedule/{year}/home.htm
 
-    Returns:
-      Date, Event, Impact
+    Returns a normalized table with:
+      EventDate, EventName, Category, Impact, Source, Details
     """
     url = f"https://www.bls.gov/schedule/{year}/home.htm"
     s = session or requests.Session()
@@ -177,13 +237,12 @@ def fetch_bls_schedule(year: int, session: Optional[requests.Session] = None) ->
 
     tables = pd.read_html(r.text)
     if not tables:
-        return pd.DataFrame(columns=["Date", "Event", "Impact"])
+        return pd.DataFrame(columns=["EventDate", "EventName", "Category", "Impact", "Source", "Details"])
 
-    # Find table with "Release" + a date column
     candidate = None
     for t in tables:
         cols = [str(c).strip().lower() for c in t.columns]
-        if any(c == "release" for c in cols) and any("date" in c for c in cols):
+        if any("release" == c for c in cols) and any("date" in c for c in cols):
             candidate = t
             break
 
@@ -203,111 +262,68 @@ def fetch_bls_schedule(year: int, session: Optional[requests.Session] = None) ->
             date_col = c
 
     if release_col is None or date_col is None:
-        return pd.DataFrame(columns=["Date", "Event", "Impact"])
+        return pd.DataFrame(columns=["EventDate", "EventName", "Category", "Impact", "Source", "Details"])
 
-    rows = []
+    out_rows = []
     for _, r0 in df.iterrows():
         name = _clean_spaces(r0.get(release_col))
         dt = _to_date(r0.get(date_col))
         if not name or not dt:
             continue
 
-        # Categorize + impact (tune as you like)
         nm_u = name.upper()
         if "CONSUMER PRICE INDEX" in nm_u or nm_u.startswith("CPI"):
-            imp = RISK_HIGH
+            cat, imp = "CPI", RISK_HIGH
         elif "EMPLOYMENT SITUATION" in nm_u or "NONFARM" in nm_u:
-            imp = RISK_HIGH
+            cat, imp = "JOBS", RISK_HIGH
         elif "PRODUCER PRICE" in nm_u or "PPI" in nm_u:
-            imp = RISK_MED
+            cat, imp = "PPI", RISK_MED
         elif "RETAIL SALES" in nm_u:
-            imp = RISK_MED
-        elif "GDP" in nm_u:
-            imp = RISK_HIGH
+            cat, imp = "RETAIL", RISK_MED
         else:
-            imp = RISK_LOW
+            cat, imp = "BLS", RISK_LOW
 
-        rows.append({"Date": dt, "Event": name, "Impact": imp})
+        out_rows.append({
+            "EventDate": dt,
+            "EventName": name,
+            "Category": cat,
+            "Impact": imp,
+            "Source": "BLS",
+            "Details": f"BLS schedule {year}",
+        })
 
-    out = pd.DataFrame(rows)
+    out = pd.DataFrame(out_rows)
     if not out.empty:
-        out = out.sort_values("Date").reset_index(drop=True)
+        out = out.sort_values("EventDate").reset_index(drop=True)
     return out
 
 
 # -----------------------------
-# FOMC calendar
-# Produces Date,Event,Impact
-# -----------------------------
-def fetch_fomc_schedule(year: int, session: Optional[requests.Session] = None) -> pd.DataFrame:
-    """
-    Scrapes FOMC meeting calendar dates from the Fed page(s).
-    Output:
-      Date, Event, Impact
-    """
-    s = session or requests.Session()
-
-    # The Fed maintains FOMC calendars on this page; formats sometimes change.
-    # We'll parse all tables and extract rows that contain the requested year.
-    url = "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
-    r = s.get(url, headers=DEFAULT_HEADERS, timeout=30)
-    r.raise_for_status()
-
-    tables = pd.read_html(r.text)
-    if not tables:
-        return pd.DataFrame(columns=["Date", "Event", "Impact"])
-
-    rows = []
-    for t in tables:
-        # Expect columns like: "Meeting date", "Minutes release", etc. (varies)
-        df = t.copy()
-        df.columns = [str(c).strip() for c in df.columns]
-        for _, rr in df.iterrows():
-            # Scan every cell for a date that belongs to the requested year
-            for c in df.columns:
-                val = rr.get(c)
-                dt = _to_date(val)
-                if dt and dt.year == year:
-                    # If the table is listing multi-day meetings like "Jan 30-31"
-                    # read_html sometimes returns a date-like string; if it becomes a single date, accept it.
-                    event_name = "FOMC"
-                    # Use column name to add detail
-                    cl = str(c).lower()
-                    if "minute" in cl:
-                        event_name = "FOMC Minutes"
-                    elif "meeting" in cl:
-                        event_name = "FOMC Meeting"
-                    elif "statement" in cl:
-                        event_name = "FOMC Statement"
-                    else:
-                        event_name = "FOMC"
-
-                    rows.append({"Date": dt, "Event": event_name, "Impact": RISK_HIGH})
-
-    out = pd.DataFrame(rows)
-    if out.empty:
-        # fallback: still create something (non-breaking)
-        return pd.DataFrame(columns=["Date", "Event", "Impact"])
-
-    out = out.drop_duplicates(subset=["Date", "Event"]).sort_values(["Date", "Event"]).reset_index(drop=True)
-    return out
-
-
-# -----------------------------
-# Build combined macro calendar CSV (Date,Event,Impact)
+# Macro calendar writer (Date,Event,Impact only)
 # -----------------------------
 def build_macro_calendar_csv(out_csv: str, years: List[int], session: Optional[requests.Session] = None) -> pd.DataFrame:
     s = session or requests.Session()
     frames = []
 
     for y in years:
+        # BLS
         try:
-            frames.append(fetch_bls_schedule(y, session=s))
+            bls = fetch_bls_schedule(y, session=s)
+            if not bls.empty:
+                frames.append(bls[["EventDate", "EventName", "Impact"]].rename(
+                    columns={"EventDate": "Date", "EventName": "Event"}
+                ))
         except Exception as e:
             print(f"[macro] BLS failed for {y}: {e}")
 
+        # FOMC
         try:
-            frames.append(fetch_fomc_schedule(y, session=s))
+            fomc = fetch_fomc_meetings(y, session=s)
+            if not fomc.empty:
+                # Keep EventName ("FOMC Meeting (Start)") as Event
+                frames.append(fomc[["EventDate", "EventName", "Impact"]].rename(
+                    columns={"EventDate": "Date", "EventName": "Event"}
+                ))
         except Exception as e:
             print(f"[macro] FOMC failed for {y}: {e}")
 
@@ -320,7 +336,7 @@ def build_macro_calendar_csv(out_csv: str, years: List[int], session: Optional[r
         cal["Impact"] = cal["Impact"].astype(str).map(_clean_spaces)
         cal = cal.drop_duplicates(subset=["Date", "Event"]).sort_values(["Date", "Event"]).reset_index(drop=True)
 
-    # Write ISO dates to be safe across machines
+    # Write ISO dates for safety
     out_df = cal.copy()
     out_df["Date"] = pd.to_datetime(out_df["Date"]).dt.strftime("%Y-%m-%d")
 
@@ -343,7 +359,6 @@ def load_symbols_from_universes() -> List[str]:
             continue
         syms.extend(df["Symbol"].astype(str).tolist())
 
-    # normalize + unique
     syms = [_sym(s) for s in syms if str(s).strip()]
     syms = sorted(list(set(syms)))
     return syms
@@ -380,7 +395,7 @@ def main():
     # 1) Macro calendar CSV (Date,Event,Impact)
     macro_csv = os.path.join(MACRO_DIR, "macro_calendar.csv")
     try:
-        years = [run_day.year, run_day.year + 1]
+        years = [run_day.year, run_day.year + 1]  # avoids "only Jan" syndrome
         cal = build_macro_calendar_csv(macro_csv, years=years, session=s)
         log(f"Macro calendar saved: {macro_csv} rows={len(cal)} years={years}")
     except Exception as e:
@@ -397,7 +412,6 @@ def main():
     hit_429 = 0
 
     for i, sym in enumerate(symbols, 1):
-        # bucket logic
         if calls >= MAX_CALLS_PER_MIN:
             elapsed = time.time() - bucket_start
             log(f"[bucket] calls={calls} elapsed={elapsed:.1f}s -> sleep {SLEEP_ON_MINUTE}s")
@@ -411,11 +425,9 @@ def main():
         if rec.get("status") == 429:
             hit_429 += 1
             log(f"[429] {sym}: {rec.get('error')}")
-            # backoff hard
             time.sleep(SLEEP_ON_MINUTE)
             calls = 0
             bucket_start = time.time()
-            # retry once after sleep
             rec = fetch_finnhub_recommendation(sym, FINNHUB_API_KEY, session=s)
 
         if rec.get("ok"):
