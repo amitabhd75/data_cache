@@ -39,8 +39,8 @@ SLEEP_ON_MINUTE = int(os.getenv("FINNHUB_SLEEP_SECONDS", "65"))  # sleep after b
 REQ_TIMEOUT = 15
 
 DEFAULT_HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; nightly_cache_job/1.0; +https://github.com/)",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/120.0 Safari/537.36"
 }
 
 RISK_HIGH = "HIGH"
