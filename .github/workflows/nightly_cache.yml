@@ -3,6 +3,8 @@ name: Nightly Data Cache
 env:
   FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
   REPO_ROOT: ${{ github.workspace }}
+  FINNHUB_MAX_CALLS_PER_MIN: "30"
+  FINNHUB_SLEEP_SECONDS: "75"
 
 on:
   workflow_dispatch: {}
