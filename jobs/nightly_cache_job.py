@@ -2,7 +2,7 @@ import os
 import time
 import json
 from datetime import date, datetime
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any, Optional, Tuple
 
 import pandas as pd
 import requests
@@ -36,6 +36,11 @@ FINNHUB_API_KEY = os.getenv("FINNHUB_API_KEY", "").strip()
 MAX_CALLS_PER_MIN = int(os.getenv("FINNHUB_MAX_CALLS_PER_MIN", "45"))
 SLEEP_ON_MINUTE = int(os.getenv("FINNHUB_SLEEP_SECONDS", "65"))  # sleep after bucket
 REQ_TIMEOUT = 15
+
+DEFAULT_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (compatible; nightly_cache_job/1.0; +https://github.com/)",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+}
 
 
 # -------------------------
@@ -117,32 +122,211 @@ def fetch_finnhub_recommendation(symbol: str, api_key: str, session: Optional[re
 
 
 # -------------------------
-# Macro calendar (BLS schedule scraper you already validated)
-# Output must be: Date,Event,Impact
+# Macro helpers
 # -------------------------
-def fetch_bls_schedule_csv(out_csv: str) -> pd.DataFrame:
-    """
-    Scrapes BLS "Release Calendar" style schedule page that lists CPI/JOBS etc.
-    You already have a working scraper in your codebase; this is a placeholder hook.
-    Replace the URL+parsing with your working version.
-    """
-    # IMPORTANT: plug your proven BLS schedule URL here (the one that gave you Jan rows).
-    # Example patterns on bls.gov differ; keep what you already have.
-    url = "https://www.bls.gov/schedule/news_release/bls.htm"  # <-- replace if you used a different one
+RISK_HIGH = "HIGH"
+RISK_MED = "MED"
+RISK_LOW = "LOW"
 
-    r = requests.get(url, timeout=REQ_TIMEOUT)
+def _clean_spaces(x: Any) -> str:
+    if x is None:
+        return ""
+    s = str(x).replace("\xa0", " ").strip()
+    s = " ".join(s.split())
+    return s
+
+def _to_date(x: Any) -> Optional[date]:
+    if x is None:
+        return None
+    try:
+        dt = pd.to_datetime(x, errors="coerce")
+        if pd.isna(dt):
+            return None
+        return dt.date()
+    except Exception:
+        return None
+
+def _impact_from_text(s: str) -> str:
+    s = (s or "").upper()
+    if "HIGH" in s:
+        return RISK_HIGH
+    if "MED" in s or "MEDIUM" in s:
+        return RISK_MED
+    if "LOW" in s:
+        return RISK_LOW
+    # if no explicit impact, default MED for Fed/FOMC style, LOW for misc
+    return ""
+
+
+# -----------------------------
+# BLS release schedule (CPI, Jobs, PPI, etc.)
+# Produces Date,Event,Impact
+# -----------------------------
+def fetch_bls_schedule(year: int, session: Optional[requests.Session] = None) -> pd.DataFrame:
+    """
+    Pulls the BLS schedule for a given year from:
+      https://www.bls.gov/schedule/{year}/home.htm
+
+    Returns:
+      Date, Event, Impact
+    """
+    url = f"https://www.bls.gov/schedule/{year}/home.htm"
+    s = session or requests.Session()
+    r = s.get(url, headers=DEFAULT_HEADERS, timeout=30)
     r.raise_for_status()
 
-    # Minimal: if your existing function already returns a dataframe, call it instead.
-    # For now we just create an empty DF so pipeline doesn't break.
-    df = pd.DataFrame(columns=["Date", "Event", "Impact"])
+    tables = pd.read_html(r.text)
+    if not tables:
+        return pd.DataFrame(columns=["Date", "Event", "Impact"])
 
-    # TODO: Replace this placeholder with your working parser
-    # df = your_existing_bls_parser(r.text)
+    # Find table with "Release" + a date column
+    candidate = None
+    for t in tables:
+        cols = [str(c).strip().lower() for c in t.columns]
+        if any(c == "release" for c in cols) and any("date" in c for c in cols):
+            candidate = t
+            break
+
+    if candidate is None:
+        candidate = pd.concat(tables, ignore_index=True)
+
+    df = candidate.copy()
+    df.columns = [str(c).strip() for c in df.columns]
+
+    release_col = None
+    date_col = None
+    for c in df.columns:
+        cl = c.lower()
+        if release_col is None and cl == "release":
+            release_col = c
+        if date_col is None and "date" in cl:
+            date_col = c
+
+    if release_col is None or date_col is None:
+        return pd.DataFrame(columns=["Date", "Event", "Impact"])
+
+    rows = []
+    for _, r0 in df.iterrows():
+        name = _clean_spaces(r0.get(release_col))
+        dt = _to_date(r0.get(date_col))
+        if not name or not dt:
+            continue
+
+        # Categorize + impact (tune as you like)
+        nm_u = name.upper()
+        if "CONSUMER PRICE INDEX" in nm_u or nm_u.startswith("CPI"):
+            imp = RISK_HIGH
+        elif "EMPLOYMENT SITUATION" in nm_u or "NONFARM" in nm_u:
+            imp = RISK_HIGH
+        elif "PRODUCER PRICE" in nm_u or "PPI" in nm_u:
+            imp = RISK_MED
+        elif "RETAIL SALES" in nm_u:
+            imp = RISK_MED
+        elif "GDP" in nm_u:
+            imp = RISK_HIGH
+        else:
+            imp = RISK_LOW
+
+        rows.append({"Date": dt, "Event": name, "Impact": imp})
+
+    out = pd.DataFrame(rows)
+    if not out.empty:
+        out = out.sort_values("Date").reset_index(drop=True)
+    return out
+
+
+# -----------------------------
+# FOMC calendar
+# Produces Date,Event,Impact
+# -----------------------------
+def fetch_fomc_schedule(year: int, session: Optional[requests.Session] = None) -> pd.DataFrame:
+    """
+    Scrapes FOMC meeting calendar dates from the Fed page(s).
+    Output:
+      Date, Event, Impact
+    """
+    s = session or requests.Session()
+
+    # The Fed maintains FOMC calendars on this page; formats sometimes change.
+    # We'll parse all tables and extract rows that contain the requested year.
+    url = "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    r = s.get(url, headers=DEFAULT_HEADERS, timeout=30)
+    r.raise_for_status()
+
+    tables = pd.read_html(r.text)
+    if not tables:
+        return pd.DataFrame(columns=["Date", "Event", "Impact"])
+
+    rows = []
+    for t in tables:
+        # Expect columns like: "Meeting date", "Minutes release", etc. (varies)
+        df = t.copy()
+        df.columns = [str(c).strip() for c in df.columns]
+        for _, rr in df.iterrows():
+            # Scan every cell for a date that belongs to the requested year
+            for c in df.columns:
+                val = rr.get(c)
+                dt = _to_date(val)
+                if dt and dt.year == year:
+                    # If the table is listing multi-day meetings like "Jan 30-31"
+                    # read_html sometimes returns a date-like string; if it becomes a single date, accept it.
+                    event_name = "FOMC"
+                    # Use column name to add detail
+                    cl = str(c).lower()
+                    if "minute" in cl:
+                        event_name = "FOMC Minutes"
+                    elif "meeting" in cl:
+                        event_name = "FOMC Meeting"
+                    elif "statement" in cl:
+                        event_name = "FOMC Statement"
+                    else:
+                        event_name = "FOMC"
+
+                    rows.append({"Date": dt, "Event": event_name, "Impact": RISK_HIGH})
+
+    out = pd.DataFrame(rows)
+    if out.empty:
+        # fallback: still create something (non-breaking)
+        return pd.DataFrame(columns=["Date", "Event", "Impact"])
+
+    out = out.drop_duplicates(subset=["Date", "Event"]).sort_values(["Date", "Event"]).reset_index(drop=True)
+    return out
+
+
+# -----------------------------
+# Build combined macro calendar CSV (Date,Event,Impact)
+# -----------------------------
+def build_macro_calendar_csv(out_csv: str, years: List[int], session: Optional[requests.Session] = None) -> pd.DataFrame:
+    s = session or requests.Session()
+    frames = []
+
+    for y in years:
+        try:
+            frames.append(fetch_bls_schedule(y, session=s))
+        except Exception as e:
+            print(f"[macro] BLS failed for {y}: {e}")
+
+        try:
+            frames.append(fetch_fomc_schedule(y, session=s))
+        except Exception as e:
+            print(f"[macro] FOMC failed for {y}: {e}")
+
+    cal = pd.concat(frames, ignore_index=True) if frames else pd.DataFrame(columns=["Date", "Event", "Impact"])
+
+    if not cal.empty:
+        cal["Date"] = pd.to_datetime(cal["Date"], errors="coerce").dt.date
+        cal = cal.dropna(subset=["Date"])
+        cal["Event"] = cal["Event"].astype(str).map(_clean_spaces)
+        cal["Impact"] = cal["Impact"].astype(str).map(_clean_spaces)
+        cal = cal.drop_duplicates(subset=["Date", "Event"]).sort_values(["Date", "Event"]).reset_index(drop=True)
+
+    # Write ISO dates to be safe across machines
+    out_df = cal.copy()
+    out_df["Date"] = pd.to_datetime(out_df["Date"]).dt.strftime("%Y-%m-%d")
 
     os.makedirs(os.path.dirname(out_csv), exist_ok=True)
-    df.to_csv(out_csv, index=False)
-    return df
+    out_df.to_csv(out_csv, index=False)
+    return cal
 
 
 # -------------------------
@@ -185,23 +369,26 @@ def main():
             f.write(msg + "\n")
 
     log(f"Nightly cache start: {run_ts}")
+    log(f"REPO_ROOT: {REPO_ROOT}")
+    log(f"DATA_CACHE_DIR: {DATA_CACHE_DIR}")
     log(f"Symbols sources: {UNIVERSE_FILES}")
     log(f"FINNHUB key present: {bool(FINNHUB_API_KEY)} len={len(FINNHUB_API_KEY)}")
     log(f"Rate limit config: MAX_CALLS_PER_MIN={MAX_CALLS_PER_MIN} SLEEP_ON_MINUTE={SLEEP_ON_MINUTE}s")
 
+    s = requests.Session()
+
     # 1) Macro calendar CSV (Date,Event,Impact)
     macro_csv = os.path.join(MACRO_DIR, "macro_calendar.csv")
     try:
-        _ = fetch_bls_schedule_csv(macro_csv)
-        log(f"Macro calendar saved: {macro_csv}")
+        years = [run_day.year, run_day.year + 1]
+        cal = build_macro_calendar_csv(macro_csv, years=years, session=s)
+        log(f"Macro calendar saved: {macro_csv} rows={len(cal)} years={years}")
     except Exception as e:
         log(f"Macro fetch failed: {e}")
 
     # 2) Finnhub recommendation caching
     symbols = load_symbols_from_universes()
     log(f"Total symbols to cache: {len(symbols)}")
-
-    s = requests.Session()
 
     calls = 0
     bucket_start = time.time()
@@ -243,6 +430,7 @@ def main():
 
     log(f"Nightly cache done. ok={ok_count} err={err_count} 429={hit_429}")
     log(f"Finnhub cached under: {FINNHUB_CACHE_DIR}/{run_day.isoformat()}/ and /latest/")
+    log(f"Macro cached under: {macro_csv}")
     log(f"Log saved: {log_path}")
 
 
