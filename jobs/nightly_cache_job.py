@@ -21,6 +21,7 @@ FINNHUB_CACHE_DIR = os.path.join(DATA_CACHE_DIR, "finnhub_recs")
 MACRO_DIR = os.path.join(DATA_CACHE_DIR, "macro_calendar")
 EARN_DIR = os.path.join(DATA_CACHE_DIR, "earnings")
 LOG_DIR = os.path.join(REPO_ROOT, "logs")
+EARN_DIR = os.path.join(DATA_CACHE_DIR, "earnings")
 
 UNIVERSE_DIR = os.path.join(REPO_ROOT, "universes")
 UNIVERSE_FILES = [
@@ -49,6 +50,118 @@ RISK_LOW = "LOW"
 
 FED_FOMC_URL = "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
 
+from datetime import timedelta
+import yfinance as yf
+
+def save_earnings_cached(
+    cache_dir: str,
+    symbol: str,
+    payload: Dict[str, Any],
+    d: Optional[date] = None,
+    also_update_latest: bool = True,
+) -> None:
+    d = d or date.today()
+    day_path = _cache_path(cache_dir, symbol, d)
+    save_json(day_path, payload)
+    if also_update_latest:
+        save_json(_latest_path(cache_dir, symbol), payload)
+
+def fetch_earnings_date_yf(symbol: str) -> Optional[date]:
+    """
+    Best-effort next earnings date from yfinance.
+    Returns a python date or None.
+    """
+    symbol = _sym(symbol)
+    try:
+        t = yf.Ticker(symbol)
+
+        # Preferred (newer yfinance): get_earnings_dates may exist
+        if hasattr(t, "get_earnings_dates"):
+            df = t.get_earnings_dates(limit=8)
+            if df is not None and len(df) > 0:
+                # index is usually Timestamp
+                idx = df.index
+                # choose first date >= today (UTC-ish)
+                today_dt = pd.Timestamp(date.today())
+                future = [d for d in idx if pd.Timestamp(d).normalize() >= today_dt]
+                if future:
+                    return pd.Timestamp(sorted(future)[0]).date()
+
+        # Fallback: calendar field (often has next earnings in it)
+        cal = getattr(t, "calendar", None)
+        if isinstance(cal, (pd.DataFrame, pd.Series)) and len(cal) > 0:
+            # try common keys
+            for key in ["Earnings Date", "EarningsDate", "Earnings Date(s)"]:
+                if key in cal.index:
+                    v = cal.loc[key]
+                    # v may be Timestamp or list-like
+                    if isinstance(v, (list, tuple, pd.Series)) and len(v) > 0:
+                        return pd.Timestamp(v[0]).date()
+                    return pd.Timestamp(v).date()
+
+        # Fallback: t.calendar sometimes is DataFrame with first row as earnings date range
+        if isinstance(cal, pd.DataFrame) and cal.shape[1] > 0:
+            # try take first cell
+            v = cal.iloc[0, 0]
+            if pd.notna(v):
+                return pd.Timestamp(v).date()
+
+        return None
+    except Exception:
+        return None
+
+def fetch_earnings_date_finnhub(
+    symbol: str,
+    api_key: str,
+    session: Optional[requests.Session] = None,
+    lookahead_days: int = 60,
+) -> Optional[date]:
+    """
+    Uses Finnhub earnings calendar endpoint.
+    Returns the nearest earnings date >= today if present.
+    """
+    symbol = _sym(symbol)
+    if not api_key:
+        return None
+
+    s = session or requests.Session()
+    try:
+        url = "https://finnhub.io/api/v1/calendar/earnings"
+        d0 = date.today()
+        d1 = d0 + timedelta(days=lookahead_days)
+        params = {
+            "symbol": symbol,
+            "from": d0.isoformat(),
+            "to": d1.isoformat(),
+            "token": api_key
+        }
+        r = s.get(url, params=params, timeout=REQ_TIMEOUT)
+
+        # let caller handle 429 tracking via status_code
+        if r.status_code == 429:
+            return None
+
+        r.raise_for_status()
+        js = r.json() or {}
+        items = js.get("earningsCalendar") or []
+        if not items:
+            return None
+
+        # choose soonest >= today
+        dates = []
+        for it in items:
+            dt = it.get("date")
+            if dt:
+                try:
+                    dd = pd.to_datetime(dt).date()
+                    if dd >= d0:
+                        dates.append(dd)
+                except Exception:
+                    pass
+
+        return min(dates) if dates else None
+    except Exception:
+        return None
 
 # -------------------------
 # Generic helpers
@@ -440,10 +553,50 @@ def main():
         if i % 50 == 0:
             log(f"[progress] {i}/{len(symbols)} ok={ok_count} err={err_count} 429={hit_429}")
 
+            # -------------------------
+        # Earnings caching (YF -> Finnhub fallback)
+        # -------------------------
+        earn_payload = {
+            "ok": False,
+            "symbol": sym,
+            "asof": run_day.isoformat(),
+            "earnings_date": None,
+            "source": None,
+            "error": None,
+        }
+
+        ed = fetch_earnings_date_yf(sym)
+        if ed:
+            earn_payload.update({"ok": True, "earnings_date": ed.isoformat(), "source": "YF"})
+        else:
+            # Finnhub fallback only if key exists
+            if FINNHUB_API_KEY:
+                # NOTE: this is an extra Finnhub call -> counts toward rate limit
+                # bucket logic: if you want strict counting, increment calls here too
+                if calls >= MAX_CALLS_PER_MIN:
+                    elapsed = time.time() - bucket_start
+                    log(f"[bucket] calls={calls} elapsed={elapsed:.1f}s -> sleep {SLEEP_ON_MINUTE}s")
+                    time.sleep(SLEEP_ON_MINUTE)
+                    calls = 0
+                    bucket_start = time.time()
+
+                ed2 = fetch_earnings_date_finnhub(sym, FINNHUB_API_KEY, session=s, lookahead_days=60)
+                calls += 1  # counts this Finnhub earnings call
+
+                if ed2:
+                    earn_payload.update({"ok": True, "earnings_date": ed2.isoformat(), "source": "FH"})
+                else:
+                    earn_payload.update({"ok": False, "error": "no earnings date (YF+FH)"})
+            else:
+                earn_payload.update({"ok": False, "error": "no FINNHUB_API_KEY (YF only)"})
+
+        save_earnings_cached(EARN_DIR, sym, earn_payload, d=run_day, also_update_latest=True)
+
     log(f"Nightly cache done. ok={ok_count} err={err_count} 429={hit_429}")
     log(f"Finnhub cached under: {FINNHUB_CACHE_DIR}/{run_day.isoformat()}/ and /latest/")
     log(f"Macro cached under: {macro_csv}")
     log(f"Log saved: {log_path}")
+
 
 
 if __name__ == "__main__":
