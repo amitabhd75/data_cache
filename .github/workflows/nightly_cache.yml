@@ -13,15 +13,20 @@ on:
 permissions:
   contents: write
 
+# Prevent overlapping runs from racing to push
+concurrency:
+  group: nightly-cache
+  cancel-in-progress: true
+
 jobs:
   build-cache:
     runs-on: ubuntu-latest
-    env:
-      FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -39,10 +44,27 @@ jobs:
 
       - name: Commit updated caches
         run: |
+          set -e
+
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Stage changes (safe even if folders missing)
           git add data_cache || true
           git add logs || true
+
+          # If nothing changed, exit cleanly
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
           git status
-          git commit -m "Nightly cache update" || echo "No changes to commit"
-          git push
+
+          TS="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          git commit -m "Nightly cache update ${TS}"
+
+          # Rebase on latest remote to avoid non-fast-forward push failures
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+
+          git push origin "${GITHUB_REF_NAME}"
