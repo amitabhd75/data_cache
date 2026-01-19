@@ -1,0 +1,34 @@
+Nightly cache start: 2026-01-19T220425Z
+REPO_ROOT: /home/runner/work/data_cache/data_cache
+DATA_CACHE_DIR: /home/runner/work/data_cache/data_cache/data_cache
+Symbols sources: ['sp500_constituents.csv', 'nasdaq100_with_baseline.csv', 'custom_universe_with_sector_baselines.csv']
+FINNHUB key present: True len=40
+Rate limit config: MAX_CALLS_PER_MIN=45 SLEEP_ON_MINUTE=65s
+Macro calendar saved: /home/runner/work/data_cache/data_cache/data_cache/macro_calendar/macro_calendar.csv rows=75 years=[2026, 2027]
+Total symbols to cache: 546
+[bucket] calls=45 elapsed=3.9s -> sleep 65s
+[progress] 50/546 ok=50 err=0 429=0
+[bucket] calls=45 elapsed=3.7s -> sleep 65s
+[progress] 100/546 ok=100 err=0 429=0
+[bucket] calls=45 elapsed=3.8s -> sleep 65s
+[progress] 150/546 ok=150 err=0 429=0
+[bucket] calls=45 elapsed=3.8s -> sleep 65s
+[progress] 200/546 ok=199 err=1 429=0
+[bucket] calls=45 elapsed=3.6s -> sleep 65s
+[progress] 250/546 ok=244 err=6 429=0
+[bucket] calls=45 elapsed=3.6s -> sleep 65s
+[progress] 300/546 ok=292 err=8 429=0
+[bucket] calls=45 elapsed=3.7s -> sleep 65s
+[progress] 350/546 ok=340 err=10 429=0
+[bucket] calls=45 elapsed=3.7s -> sleep 65s
+[progress] 400/546 ok=389 err=11 429=0
+[bucket] calls=45 elapsed=3.7s -> sleep 65s
+[progress] 450/546 ok=433 err=17 429=0
+[bucket] calls=45 elapsed=3.6s -> sleep 65s
+[bucket] calls=45 elapsed=3.5s -> sleep 65s
+[progress] 500/546 ok=482 err=18 429=0
+[bucket] calls=45 elapsed=3.8s -> sleep 65s
+Nightly cache done. ok=523 err=23 429=0
+Finnhub cached under: /home/runner/work/data_cache/data_cache/data_cache/finnhub_recs/2026-01-19/ and /latest/
+Macro cached under: /home/runner/work/data_cache/data_cache/data_cache/macro_calendar/macro_calendar.csv
+Log saved: /home/runner/work/data_cache/data_cache/logs/nightly_cache_2026-01-19T220425Z.log

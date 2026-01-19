@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 1,
+    "hold": 11,
+    "period": "2026-01-01",
+    "sell": 3,
+    "strongBuy": 0,
+    "strongSell": 3,
+    "symbol": "LCID"
+  },
+  "error": null
+}

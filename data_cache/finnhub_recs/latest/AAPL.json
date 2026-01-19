@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 21,
+    "hold": 16,
+    "period": "2026-01-01",
+    "sell": 2,
+    "strongBuy": 14,
+    "strongSell": 0,
+    "symbol": "AAPL"
+  },
+  "error": null
+}
