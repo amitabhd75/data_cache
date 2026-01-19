@@ -1,5 +1,9 @@
 name: Nightly Data Cache
 
+env:
+  FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+  REPO_ROOT: ${{ github.workspace }}
+
 on:
   workflow_dispatch: {}
   schedule:
