@@ -11,7 +11,10 @@ import requests
 # -------------------------
 # Config
 # -------------------------
-REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+REPO_ROOT = os.environ.get(
+    "REPO_ROOT",
+    os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+)
 DATA_CACHE_DIR = os.path.join(REPO_ROOT, "data_cache")
 FINNHUB_CACHE_DIR = os.path.join(DATA_CACHE_DIR, "finnhub_recs")
 MACRO_DIR = os.path.join(DATA_CACHE_DIR, "macro_calendar")
