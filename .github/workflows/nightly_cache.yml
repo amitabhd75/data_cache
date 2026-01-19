@@ -1,0 +1,44 @@
+name: Nightly Data Cache
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    # 2:00 AM America/Los_Angeles == 10:00 UTC in January (standard time)
+    - cron: "0 10 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  build-cache:
+    runs-on: ubuntu-latest
+    env:
+      FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r jobs/requirements_cache_job.txt
+
+      - name: Run nightly cache job
+        run: |
+          python jobs/nightly_cache_job.py
+
+      - name: Commit updated caches
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data_cache || true
+          git add logs || true
+          git status
+          git commit -m "Nightly cache update" || echo "No changes to commit"
+          git push
