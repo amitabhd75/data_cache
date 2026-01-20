@@ -550,9 +550,6 @@ def main():
 
         save_finnhub_cached_recommendation(FINNHUB_CACHE_DIR, sym, rec, d=run_day, also_update_latest=True)
 
-        if i % 50 == 0:
-            log(f"[progress] {i}/{len(symbols)} ok={ok_count} err={err_count} 429={hit_429}")
-
             # -------------------------
         # Earnings caching (YF -> Finnhub fallback)
         # -------------------------
@@ -570,28 +567,28 @@ def main():
         #     earn_payload.update({"ok": True, "earnings_date": ed.isoformat(), "source": "YF"})
         # else:
         # Finnhub fallback only if key exists
-        if FINNHUB_API_KEY:
+        #if FINNHUB_API_KEY:
             # NOTE: this is an extra Finnhub call -> counts toward rate limit
             # bucket logic: if you want strict counting, increment calls here too
-            if calls >= MAX_CALLS_PER_MIN:
-                elapsed = time.time() - bucket_start
-                log(f"[bucket] calls={calls} elapsed={elapsed:.1f}s -> sleep {SLEEP_ON_MINUTE}s")
-                time.sleep(SLEEP_ON_MINUTE)
-                calls = 0
-                bucket_start = time.time()
+        if calls >= MAX_CALLS_PER_MIN:
+            elapsed = time.time() - bucket_start
+            log(f"[bucket] calls={calls} elapsed={elapsed:.1f}s -> sleep {SLEEP_ON_MINUTE}s")
+            time.sleep(SLEEP_ON_MINUTE)
+            calls = 0
+            bucket_start = time.time()
 
-            ed2 = fetch_earnings_date_finnhub(sym, FINNHUB_API_KEY, session=s, lookahead_days=60)
-            calls += 1  # counts this Finnhub earnings call
+        ed2 = fetch_earnings_date_finnhub(sym, FINNHUB_API_KEY, session=s, lookahead_days=60)
+        calls += 1  # counts this Finnhub earnings call
 
-            if ed2:
-                earn_payload.update({"ok": True, "earnings_date": ed2.isoformat(), "source": "FH"})
-            else:
-                earn_payload.update({"ok": False, "error": "no earnings date (YF+FH)"})
+        if ed2:
+            earn_payload.update({"ok": True, "earnings_date": ed2.isoformat(), "source": "FH"})
         else:
-            earn_payload.update({"ok": False, "error": "no FINNHUB_API_KEY (YF only)"})
+            earn_payload.update({"ok": False, "error": "no earnings date (YF+FH)"})
 
         save_earnings_cached(EARN_DIR, sym, earn_payload, d=run_day, also_update_latest=True)
 
+        if i % 50 == 0:
+        log(f"[progress] {i}/{len(symbols)} ok={ok_count} err={err_count} 429={hit_429}")
     
     log(f"Nightly cache done. ok={ok_count} err={err_count} 429={hit_429}")
     log(f"Finnhub cached under: {FINNHUB_CACHE_DIR}/{run_day.isoformat()}/ and /latest/")
