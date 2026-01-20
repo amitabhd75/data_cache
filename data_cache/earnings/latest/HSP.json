@@ -1,0 +1,9 @@
+{
+  "ok": false,
+  "symbol": "HSP",
+  "asof": "2026-01-20",
+  "earnings_date": null,
+  "source": "FH",
+  "status": 200,
+  "error": "empty earningsCalendar"
+}
