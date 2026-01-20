@@ -64,7 +64,7 @@ UNIVERSE_FILES = [
     "sp500_constituents.csv",
     "nasdaq100_with_baseline.csv",
     "custom_universe_with_sector_baselines.csv",
-    # "russell1000_constituents.csv",  # add later
+    "russell1000_universe.csv",  # add later
 ]
 
 FINNHUB_API_KEY = os.getenv("FINNHUB_API_KEY", "").strip()
