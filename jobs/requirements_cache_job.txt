@@ -1,5 +1,6 @@
 pandas
 requests
-python-dateutil
-beautifulsoup4
 lxml
+html5lib
+beautifulsoup4
+yfinance
