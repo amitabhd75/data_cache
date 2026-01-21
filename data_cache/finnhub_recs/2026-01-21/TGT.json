@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 8,
+    "hold": 23,
+    "period": "2026-01-01",
+    "sell": 4,
+    "strongBuy": 6,
+    "strongSell": 2,
+    "symbol": "TGT"
+  },
+  "error": null
+}
