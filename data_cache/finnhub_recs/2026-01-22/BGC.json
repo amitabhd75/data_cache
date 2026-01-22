@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 3,
+    "hold": 1,
+    "period": "2026-01-01",
+    "sell": 0,
+    "strongBuy": 2,
+    "strongSell": 0,
+    "symbol": "BGC"
+  },
+  "error": null
+}

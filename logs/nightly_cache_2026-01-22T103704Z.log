@@ -1,0 +1,114 @@
+Nightly cache start: 2026-01-22T103704Z
+REPO_ROOT: /home/runner/work/data_cache/data_cache
+DATA_CACHE_DIR: /home/runner/work/data_cache/data_cache/data_cache
+Symbols sources: ['sp500_constituents.csv', 'nasdaq100_with_baseline.csv', 'custom_universe_with_sector_baselines.csv', 'russell1000_universe.csv']
+FINNHUB key present: True len=40
+Rate limit config: MAX_CALLS_PER_MIN=30 SLEEP_ON_MINUTE=75s
+YFinance available: True
+Macro calendar saved: /home/runner/work/data_cache/data_cache/data_cache/macro_calendar/macro_calendar.csv rows=57 years=[2026, 2027]
+Total symbols to cache: 1146
+[bucket] calls=30 elapsed=12.6s -> sleep 75s
+[bucket] calls=30 elapsed=14.4s -> sleep 75s
+[bucket] calls=30 elapsed=11.8s -> sleep 75s
+[progress] 50/1146 recs ok=42 err=8 429=0 | earn ok=37 err=13 429=0
+[bucket] calls=30 elapsed=13.9s -> sleep 75s
+[bucket] calls=30 elapsed=12.0s -> sleep 75s
+[bucket] calls=30 elapsed=13.0s -> sleep 75s
+[progress] 100/1146 recs ok=76 err=24 429=0 | earn ok=67 err=33 429=0
+[bucket] calls=30 elapsed=12.3s -> sleep 75s
+[bucket] calls=30 elapsed=11.7s -> sleep 75s
+[bucket] calls=30 elapsed=11.4s -> sleep 75s
+[progress] 150/1146 recs ok=116 err=34 429=0 | earn ok=101 err=49 429=0
+[bucket] calls=30 elapsed=11.7s -> sleep 75s
+[bucket] calls=30 elapsed=11.6s -> sleep 75s
+[bucket] calls=30 elapsed=12.7s -> sleep 75s
+[bucket] calls=30 elapsed=11.7s -> sleep 75s
+[progress] 200/1146 recs ok=154 err=46 429=0 | earn ok=134 err=66 429=0
+[bucket] calls=30 elapsed=12.1s -> sleep 75s
+[bucket] calls=30 elapsed=11.3s -> sleep 75s
+[bucket] calls=30 elapsed=14.8s -> sleep 75s
+[progress] 250/1146 recs ok=191 err=59 429=0 | earn ok=169 err=81 429=0
+[bucket] calls=30 elapsed=12.0s -> sleep 75s
+[bucket] calls=30 elapsed=11.9s -> sleep 75s
+[bucket] calls=30 elapsed=12.1s -> sleep 75s
+[progress] 300/1146 recs ok=228 err=72 429=0 | earn ok=198 err=102 429=0
+[bucket] calls=30 elapsed=11.9s -> sleep 75s
+[bucket] calls=30 elapsed=11.5s -> sleep 75s
+[bucket] calls=30 elapsed=12.9s -> sleep 75s
+[bucket] calls=30 elapsed=13.4s -> sleep 75s
+[progress] 350/1146 recs ok=264 err=86 429=0 | earn ok=228 err=122 429=0
+[bucket] calls=30 elapsed=11.5s -> sleep 75s
+[bucket] calls=30 elapsed=12.6s -> sleep 75s
+[bucket] calls=30 elapsed=12.7s -> sleep 75s
+[progress] 400/1146 recs ok=302 err=98 429=0 | earn ok=262 err=138 429=0
+[bucket] calls=30 elapsed=12.1s -> sleep 75s
+[bucket] calls=30 elapsed=11.9s -> sleep 75s
+[bucket] calls=30 elapsed=11.7s -> sleep 75s
+[progress] 450/1146 recs ok=336 err=114 429=0 | earn ok=294 err=156 429=0
+[bucket] calls=30 elapsed=12.7s -> sleep 75s
+[bucket] calls=30 elapsed=11.2s -> sleep 75s
+[bucket] calls=30 elapsed=17.1s -> sleep 75s
+[bucket] calls=30 elapsed=11.5s -> sleep 75s
+[progress] 500/1146 recs ok=369 err=131 429=0 | earn ok=321 err=179 429=0
+[bucket] calls=30 elapsed=12.5s -> sleep 75s
+[bucket] calls=30 elapsed=12.5s -> sleep 75s
+[bucket] calls=30 elapsed=11.4s -> sleep 75s
+[progress] 550/1146 recs ok=407 err=143 429=0 | earn ok=358 err=192 429=0
+[bucket] calls=30 elapsed=12.3s -> sleep 75s
+[bucket] calls=30 elapsed=11.9s -> sleep 75s
+[bucket] calls=30 elapsed=11.2s -> sleep 75s
+[progress] 600/1146 recs ok=447 err=153 429=0 | earn ok=390 err=210 429=0
+[bucket] calls=30 elapsed=11.5s -> sleep 75s
+[bucket] calls=30 elapsed=11.6s -> sleep 75s
+[bucket] calls=30 elapsed=13.0s -> sleep 75s
+[bucket] calls=30 elapsed=11.5s -> sleep 75s
+[progress] 650/1146 recs ok=481 err=169 429=0 | earn ok=419 err=231 429=0
+[bucket] calls=30 elapsed=12.1s -> sleep 75s
+[bucket] calls=30 elapsed=11.7s -> sleep 75s
+[bucket] calls=30 elapsed=12.2s -> sleep 75s
+[progress] 700/1146 recs ok=521 err=179 429=0 | earn ok=453 err=247 429=0
+[bucket] calls=30 elapsed=12.4s -> sleep 75s
+[bucket] calls=30 elapsed=13.3s -> sleep 75s
+[bucket] calls=30 elapsed=11.7s -> sleep 75s
+[progress] 750/1146 recs ok=557 err=193 429=0 | earn ok=484 err=266 429=0
+[bucket] calls=30 elapsed=12.9s -> sleep 75s
+[bucket] calls=30 elapsed=12.1s -> sleep 75s
+[bucket] calls=30 elapsed=11.8s -> sleep 75s
+[bucket] calls=30 elapsed=11.7s -> sleep 75s
+[progress] 800/1146 recs ok=595 err=205 429=0 | earn ok=519 err=281 429=0
+[bucket] calls=30 elapsed=12.3s -> sleep 75s
+[bucket] calls=30 elapsed=11.9s -> sleep 75s
+[bucket] calls=30 elapsed=11.8s -> sleep 75s
+[progress] 850/1146 recs ok=630 err=220 429=0 | earn ok=549 err=301 429=0
+[bucket] calls=30 elapsed=11.8s -> sleep 75s
+[bucket] calls=30 elapsed=12.3s -> sleep 75s
+[bucket] calls=30 elapsed=12.9s -> sleep 75s
+[progress] 900/1146 recs ok=667 err=233 429=0 | earn ok=580 err=320 429=0
+[bucket] calls=30 elapsed=12.9s -> sleep 75s
+[bucket] calls=30 elapsed=27.3s -> sleep 75s
+[bucket] calls=30 elapsed=16.9s -> sleep 75s
+[bucket] calls=30 elapsed=12.2s -> sleep 75s
+[progress] 950/1146 recs ok=702 err=248 429=0 | earn ok=610 err=340 429=0
+[bucket] calls=30 elapsed=11.5s -> sleep 75s
+[bucket] calls=30 elapsed=12.9s -> sleep 75s
+[bucket] calls=30 elapsed=14.6s -> sleep 75s
+[progress] 1000/1146 recs ok=737 err=263 429=0 | earn ok=640 err=360 429=0
+[bucket] calls=30 elapsed=12.4s -> sleep 75s
+[bucket] calls=30 elapsed=12.2s -> sleep 75s
+[bucket] calls=30 elapsed=12.0s -> sleep 75s
+[progress] 1050/1146 recs ok=772 err=278 429=0 | earn ok=671 err=379 429=0
+[bucket] calls=30 elapsed=11.7s -> sleep 75s
+[bucket] calls=30 elapsed=11.7s -> sleep 75s
+[bucket] calls=30 elapsed=12.2s -> sleep 75s
+[bucket] calls=30 elapsed=11.9s -> sleep 75s
+[progress] 1100/1146 recs ok=807 err=293 429=0 | earn ok=702 err=398 429=0
+[bucket] calls=30 elapsed=12.9s -> sleep 75s
+[bucket] calls=30 elapsed=11.7s -> sleep 75s
+[bucket] calls=30 elapsed=16.8s -> sleep 75s
+Nightly cache done.
+Recs: ok=837 err=309 429=0
+Earnings: ok=725 err=421 429=0
+Finnhub cached under: /home/runner/work/data_cache/data_cache/data_cache/finnhub_recs/2026-01-22/ and /latest/
+Earnings cached under: /home/runner/work/data_cache/data_cache/data_cache/earnings/2026-01-22/ and /latest/
+Macro cached under: /home/runner/work/data_cache/data_cache/data_cache/macro_calendar/macro_calendar.csv
+Log saved: /home/runner/work/data_cache/data_cache/logs/nightly_cache_2026-01-22T103704Z.log
