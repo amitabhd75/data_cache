@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 13,
+    "hold": 5,
+    "period": "2026-01-01",
+    "sell": 0,
+    "strongBuy": 2,
+    "strongSell": 0,
+    "symbol": "TRI.TO"
+  },
+  "error": null
+}
