@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 21,
+    "hold": 4,
+    "period": "2026-01-01",
+    "sell": 0,
+    "strongBuy": 15,
+    "strongSell": 0,
+    "symbol": "BSX"
+  },
+  "error": null
+}
