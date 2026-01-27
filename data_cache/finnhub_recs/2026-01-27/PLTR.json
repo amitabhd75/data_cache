@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 7,
+    "hold": 18,
+    "period": "2026-01-01",
+    "sell": 2,
+    "strongBuy": 4,
+    "strongSell": 1,
+    "symbol": "PLTR"
+  },
+  "error": null
+}
