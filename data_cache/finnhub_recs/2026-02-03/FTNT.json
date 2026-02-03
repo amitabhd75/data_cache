@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 9,
+    "hold": 31,
+    "period": "2026-01-01",
+    "sell": 3,
+    "strongBuy": 6,
+    "strongSell": 0,
+    "symbol": "FTNT"
+  },
+  "error": null
+}

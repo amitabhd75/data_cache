@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 5,
+    "hold": 3,
+    "period": "2026-01-01",
+    "sell": 0,
+    "strongBuy": 1,
+    "strongSell": 0,
+    "symbol": "TTC"
+  },
+  "error": null
+}
