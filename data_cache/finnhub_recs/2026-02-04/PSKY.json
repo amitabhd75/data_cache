@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 2,
+    "hold": 16,
+    "period": "2026-01-01",
+    "sell": 4,
+    "strongBuy": 0,
+    "strongSell": 4,
+    "symbol": "PSKY"
+  },
+  "error": null
+}
