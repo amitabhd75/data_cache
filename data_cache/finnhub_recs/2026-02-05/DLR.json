@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 15,
+    "hold": 9,
+    "period": "2026-01-01",
+    "sell": 1,
+    "strongBuy": 9,
+    "strongSell": 0,
+    "symbol": "DLR"
+  },
+  "error": null
+}
