@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 3,
+    "hold": 5,
+    "period": "2026-01-01",
+    "sell": 0,
+    "strongBuy": 1,
+    "strongSell": 0,
+    "symbol": "HBI"
+  },
+  "error": null
+}
