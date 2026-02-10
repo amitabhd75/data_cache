@@ -2,9 +2,9 @@
   "ok": true,
   "status": 200,
   "data": {
-    "buy": 41,
+    "buy": 40,
     "hold": 10,
-    "period": "2026-01-01",
+    "period": "2026-02-01",
     "sell": 0,
     "strongBuy": 19,
     "strongSell": 0,
