@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 19,
+    "hold": 1,
+    "period": "2026-02-01",
+    "sell": 0,
+    "strongBuy": 7,
+    "strongSell": 0,
+    "symbol": "WYNN"
+  },
+  "error": null
+}
