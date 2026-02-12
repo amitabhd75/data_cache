@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 10,
+    "hold": 3,
+    "period": "2026-02-01",
+    "sell": 0,
+    "strongBuy": 11,
+    "strongSell": 0,
+    "symbol": "BEAM"
+  },
+  "error": null
+}
