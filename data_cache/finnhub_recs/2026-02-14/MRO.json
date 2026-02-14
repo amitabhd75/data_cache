@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 9,
+    "hold": 13,
+    "period": "2025-01-01",
+    "sell": 0,
+    "strongBuy": 4,
+    "strongSell": 0,
+    "symbol": "MRO"
+  },
+  "error": null
+}
