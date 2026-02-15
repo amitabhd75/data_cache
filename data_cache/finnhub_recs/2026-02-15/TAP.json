@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 7,
+    "hold": 14,
+    "period": "2026-02-01",
+    "sell": 3,
+    "strongBuy": 2,
+    "strongSell": 0,
+    "symbol": "TAP"
+  },
+  "error": null
+}
