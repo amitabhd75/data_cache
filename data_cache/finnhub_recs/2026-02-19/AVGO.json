@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 37,
+    "hold": 2,
+    "period": "2026-02-01",
+    "sell": 0,
+    "strongBuy": 17,
+    "strongSell": 0,
+    "symbol": "AVGO"
+  },
+  "error": null
+}

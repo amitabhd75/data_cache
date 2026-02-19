@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 5,
+    "hold": 21,
+    "period": "2024-05-01",
+    "sell": 0,
+    "strongBuy": 2,
+    "strongSell": 1,
+    "symbol": "PXD"
+  },
+  "error": null
+}

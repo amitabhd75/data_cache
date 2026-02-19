@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 2,
+    "hold": 10,
+    "period": "2026-02-01",
+    "sell": 6,
+    "strongBuy": 1,
+    "strongSell": 2,
+    "symbol": "LNC"
+  },
+  "error": null
+}
