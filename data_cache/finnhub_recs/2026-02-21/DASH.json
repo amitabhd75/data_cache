@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 26,
+    "hold": 12,
+    "period": "2026-02-01",
+    "sell": 0,
+    "strongBuy": 15,
+    "strongSell": 0,
+    "symbol": "DASH"
+  },
+  "error": null
+}
