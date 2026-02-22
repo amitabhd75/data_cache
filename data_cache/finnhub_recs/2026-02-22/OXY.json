@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 7,
+    "hold": 17,
+    "period": "2026-02-01",
+    "sell": 4,
+    "strongBuy": 4,
+    "strongSell": 0,
+    "symbol": "OXY"
+  },
+  "error": null
+}

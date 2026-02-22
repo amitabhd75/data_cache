@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 7,
+    "hold": 15,
+    "period": "2026-02-01",
+    "sell": 1,
+    "strongBuy": 5,
+    "strongSell": 0,
+    "symbol": "LMT"
+  },
+  "error": null
+}

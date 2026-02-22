@@ -1,14 +1,6 @@
 {
-  "ok": true,
-  "status": 200,
-  "data": {
-    "buy": 32,
-    "hold": 4,
-    "period": "2026-02-01",
-    "sell": 1,
-    "strongBuy": 15,
-    "strongSell": 0,
-    "symbol": "NOW"
-  },
-  "error": null
+  "ok": false,
+  "status": null,
+  "data": null,
+  "error": "HTTPSConnectionPool(host='finnhub.io', port=443): Read timed out. (read timeout=15)"
 }
