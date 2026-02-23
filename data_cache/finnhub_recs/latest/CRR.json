@@ -1,6 +1,6 @@
 {
   "ok": false,
-  "status": 503,
+  "status": 200,
   "data": null,
-  "error": "503 Server Error: Service Unavailable for url: https://finnhub.io/api/v1/stock/recommendation?symbol=CRR&token=d5m53a1r01qidp4k0glgd5m53a1r01qidp4k0gm0"
+  "error": "empty recommendation list"
 }
