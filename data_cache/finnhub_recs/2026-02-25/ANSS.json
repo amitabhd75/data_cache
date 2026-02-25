@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 0,
+    "hold": 12,
+    "period": "2025-11-01",
+    "sell": 2,
+    "strongBuy": 1,
+    "strongSell": 2,
+    "symbol": "ANSS"
+  },
+  "error": null
+}
