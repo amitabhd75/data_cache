@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 7,
+    "hold": 4,
+    "period": "2026-02-01",
+    "sell": 0,
+    "strongBuy": 6,
+    "strongSell": 0,
+    "symbol": "FLS"
+  },
+  "error": null
+}

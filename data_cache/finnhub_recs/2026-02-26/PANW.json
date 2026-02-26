@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 30,
+    "hold": 13,
+    "period": "2026-02-01",
+    "sell": 2,
+    "strongBuy": 16,
+    "strongSell": 0,
+    "symbol": "PANW"
+  },
+  "error": null
+}
