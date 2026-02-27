@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 4,
+    "hold": 16,
+    "period": "2026-02-01",
+    "sell": 2,
+    "strongBuy": 7,
+    "strongSell": 0,
+    "symbol": "CPT"
+  },
+  "error": null
+}

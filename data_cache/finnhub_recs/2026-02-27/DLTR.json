@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 10,
+    "hold": 14,
+    "period": "2026-02-01",
+    "sell": 5,
+    "strongBuy": 4,
+    "strongSell": 1,
+    "symbol": "DLTR"
+  },
+  "error": null
+}
