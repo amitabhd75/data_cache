@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 17,
+    "hold": 5,
+    "period": "2026-02-01",
+    "sell": 0,
+    "strongBuy": 5,
+    "strongSell": 1,
+    "symbol": "FCX"
+  },
+  "error": null
+}

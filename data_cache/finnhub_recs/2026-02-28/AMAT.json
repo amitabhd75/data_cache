@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 23,
+    "hold": 10,
+    "period": "2026-02-01",
+    "sell": 0,
+    "strongBuy": 10,
+    "strongSell": 0,
+    "symbol": "AMAT"
+  },
+  "error": null
+}
