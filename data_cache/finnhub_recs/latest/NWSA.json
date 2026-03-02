@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "buy": 8,
-    "hold": 3,
-    "period": "2026-02-01",
+    "hold": 2,
+    "period": "2026-03-01",
     "sell": 0,
-    "strongBuy": 4,
+    "strongBuy": 5,
     "strongSell": 0,
     "symbol": "NWSA"
   },

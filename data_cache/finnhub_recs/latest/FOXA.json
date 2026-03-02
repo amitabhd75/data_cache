@@ -4,9 +4,9 @@
   "data": {
     "buy": 10,
     "hold": 13,
-    "period": "2026-02-01",
-    "sell": 0,
-    "strongBuy": 5,
+    "period": "2026-03-01",
+    "sell": 1,
+    "strongBuy": 4,
     "strongSell": 0,
     "symbol": "FOXA"
   },
