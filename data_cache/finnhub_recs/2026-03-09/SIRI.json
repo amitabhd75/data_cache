@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 1,
+    "hold": 10,
+    "period": "2026-03-01",
+    "sell": 5,
+    "strongBuy": 2,
+    "strongSell": 3,
+    "symbol": "SIRI"
+  },
+  "error": null
+}
