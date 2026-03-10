@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 16,
+    "hold": 21,
+    "period": "2026-03-01",
+    "sell": 3,
+    "strongBuy": 8,
+    "strongSell": 0,
+    "symbol": "ABNB"
+  },
+  "error": null
+}
