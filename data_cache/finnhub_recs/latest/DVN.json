@@ -1,14 +1,6 @@
 {
-  "ok": true,
-  "status": 200,
-  "data": {
-    "buy": 16,
-    "hold": 7,
-    "period": "2026-03-01",
-    "sell": 1,
-    "strongBuy": 9,
-    "strongSell": 0,
-    "symbol": "DVN"
-  },
-  "error": null
+  "ok": false,
+  "status": null,
+  "data": null,
+  "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
 }
