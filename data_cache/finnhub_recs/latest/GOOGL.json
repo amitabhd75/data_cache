@@ -3,8 +3,8 @@
   "status": 200,
   "data": {
     "buy": 41,
-    "hold": 9,
-    "period": "2026-03-01",
+    "hold": 8,
+    "period": "2026-04-01",
     "sell": 0,
     "strongBuy": 19,
     "strongSell": 0,
