@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 6,
+    "hold": 1,
+    "period": "2023-08-01",
+    "sell": 0,
+    "strongBuy": 2,
+    "strongSell": 0,
+    "symbol": "HHC"
+  },
+  "error": null
+}

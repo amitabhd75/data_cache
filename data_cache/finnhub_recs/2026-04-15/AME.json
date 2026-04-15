@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 16,
+    "hold": 7,
+    "period": "2026-04-01",
+    "sell": 0,
+    "strongBuy": 2,
+    "strongSell": 0,
+    "symbol": "AME"
+  },
+  "error": null
+}
