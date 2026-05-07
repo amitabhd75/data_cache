@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 1,
+    "hold": 12,
+    "period": "2026-05-01",
+    "sell": 10,
+    "strongBuy": 2,
+    "strongSell": 1,
+    "symbol": "HPQ"
+  },
+  "error": null
+}
