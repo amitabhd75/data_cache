@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 24,
+    "hold": 10,
+    "period": "2026-05-01",
+    "sell": 1,
+    "strongBuy": 17,
+    "strongSell": 0,
+    "symbol": "ORCL"
+  },
+  "error": null
+}
