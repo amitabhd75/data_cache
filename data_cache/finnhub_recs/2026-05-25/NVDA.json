@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 42,
+    "hold": 4,
+    "period": "2026-05-01",
+    "sell": 1,
+    "strongBuy": 24,
+    "strongSell": 0,
+    "symbol": "NVDA"
+  },
+  "error": null
+}
