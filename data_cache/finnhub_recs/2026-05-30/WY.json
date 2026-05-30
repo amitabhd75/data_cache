@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 12,
+    "hold": 5,
+    "period": "2026-05-01",
+    "sell": 1,
+    "strongBuy": 4,
+    "strongSell": 0,
+    "symbol": "WY"
+  },
+  "error": null
+}
