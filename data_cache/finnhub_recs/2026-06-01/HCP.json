@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "buy": 0,
+    "hold": 10,
+    "period": "2025-03-01",
+    "sell": 4,
+    "strongBuy": 0,
+    "strongSell": 1,
+    "symbol": "HCP"
+  },
+  "error": null
+}
