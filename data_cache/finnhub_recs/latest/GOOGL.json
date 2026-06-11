@@ -2,13 +2,13 @@
   "ok": true,
   "status": 200,
   "data": {
+    "symbol": "GOOGL",
+    "period": "2026-06-01",
+    "strongBuy": 19,
     "buy": 42,
     "hold": 9,
-    "period": "2026-06-01",
     "sell": 0,
-    "strongBuy": 19,
-    "strongSell": 0,
-    "symbol": "GOOGL"
+    "strongSell": 0
   },
   "error": null
 }
