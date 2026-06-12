@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "MRVL",
+    "period": "2026-06-01",
+    "strongBuy": 13,
+    "buy": 29,
+    "hold": 7,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}

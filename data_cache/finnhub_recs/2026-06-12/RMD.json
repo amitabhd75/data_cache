@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "RMD",
+    "period": "2026-06-01",
+    "strongBuy": 4,
+    "buy": 11,
+    "hold": 8,
+    "sell": 1,
+    "strongSell": 1
+  },
+  "error": null
+}

@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "LYB",
+    "period": "2026-06-01",
+    "strongBuy": 2,
+    "buy": 9,
+    "hold": 10,
+    "sell": 3,
+    "strongSell": 1
+  },
+  "error": null
+}

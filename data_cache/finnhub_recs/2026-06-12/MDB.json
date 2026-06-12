@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "MDB",
+    "period": "2026-06-01",
+    "strongBuy": 14,
+    "buy": 21,
+    "hold": 10,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}
