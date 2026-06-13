@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "PYPL",
+    "period": "2026-06-01",
+    "strongBuy": 4,
+    "buy": 10,
+    "hold": 34,
+    "sell": 4,
+    "strongSell": 0
+  },
+  "error": null
+}

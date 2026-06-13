@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "AMD",
+    "period": "2026-06-01",
+    "strongBuy": 14,
+    "buy": 32,
+    "hold": 11,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}

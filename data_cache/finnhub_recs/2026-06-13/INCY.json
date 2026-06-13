@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "INCY",
+    "period": "2026-06-01",
+    "strongBuy": 8,
+    "buy": 8,
+    "hold": 18,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "error": null
+}
