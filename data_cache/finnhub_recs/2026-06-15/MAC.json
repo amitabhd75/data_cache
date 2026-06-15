@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "MAC",
+    "period": "2026-06-01",
+    "strongBuy": 5,
+    "buy": 6,
+    "hold": 6,
+    "sell": 3,
+    "strongSell": 0
+  },
+  "error": null
+}

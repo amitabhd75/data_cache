@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "HTZ",
+    "period": "2026-06-01",
+    "strongBuy": 0,
+    "buy": 0,
+    "hold": 8,
+    "sell": 7,
+    "strongSell": 1
+  },
+  "error": null
+}
