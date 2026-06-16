@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "GPN",
+    "period": "2026-06-01",
+    "strongBuy": 7,
+    "buy": 9,
+    "hold": 20,
+    "sell": 2,
+    "strongSell": 0
+  },
+  "error": null
+}

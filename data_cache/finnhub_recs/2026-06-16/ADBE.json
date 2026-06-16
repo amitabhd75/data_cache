@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "ADBE",
+    "period": "2026-06-01",
+    "strongBuy": 10,
+    "buy": 9,
+    "hold": 22,
+    "sell": 4,
+    "strongSell": 0
+  },
+  "error": null
+}

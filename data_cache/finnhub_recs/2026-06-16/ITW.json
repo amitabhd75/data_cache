@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "ITW",
+    "period": "2026-06-01",
+    "strongBuy": 1,
+    "buy": 1,
+    "hold": 13,
+    "sell": 9,
+    "strongSell": 2
+  },
+  "error": null
+}
