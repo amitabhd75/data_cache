@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "KMB",
+    "period": "2026-06-01",
+    "strongBuy": 4,
+    "buy": 5,
+    "hold": 11,
+    "sell": 0,
+    "strongSell": 1
+  },
+  "error": null
+}
