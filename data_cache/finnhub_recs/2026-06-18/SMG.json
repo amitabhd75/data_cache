@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "SMG",
+    "period": "2026-06-01",
+    "strongBuy": 4,
+    "buy": 3,
+    "hold": 4,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}

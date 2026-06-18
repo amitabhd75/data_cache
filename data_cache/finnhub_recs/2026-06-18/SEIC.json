@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "SEIC",
+    "period": "2026-06-01",
+    "strongBuy": 2,
+    "buy": 8,
+    "hold": 2,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}
