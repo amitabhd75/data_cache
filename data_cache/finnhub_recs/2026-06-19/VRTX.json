@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "VRTX",
+    "period": "2026-06-01",
+    "strongBuy": 13,
+    "buy": 20,
+    "hold": 6,
+    "sell": 0,
+    "strongSell": 1
+  },
+  "error": null
+}

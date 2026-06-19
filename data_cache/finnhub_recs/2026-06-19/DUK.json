@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "DUK",
+    "period": "2026-06-01",
+    "strongBuy": 4,
+    "buy": 10,
+    "hold": 13,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "error": null
+}
