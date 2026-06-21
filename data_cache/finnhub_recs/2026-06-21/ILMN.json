@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "ILMN",
+    "period": "2026-06-01",
+    "strongBuy": 8,
+    "buy": 9,
+    "hold": 8,
+    "sell": 2,
+    "strongSell": 1
+  },
+  "error": null
+}

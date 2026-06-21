@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "CNC",
+    "period": "2026-06-01",
+    "strongBuy": 4,
+    "buy": 7,
+    "hold": 14,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "error": null
+}

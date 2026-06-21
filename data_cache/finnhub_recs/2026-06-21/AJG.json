@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "AJG",
+    "period": "2026-06-01",
+    "strongBuy": 6,
+    "buy": 15,
+    "hold": 8,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}
