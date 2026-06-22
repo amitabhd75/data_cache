@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "AMP",
+    "period": "2026-06-01",
+    "strongBuy": 5,
+    "buy": 5,
+    "hold": 9,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "error": null
+}
