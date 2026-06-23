@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "CRM",
+    "period": "2026-06-01",
+    "strongBuy": 12,
+    "buy": 31,
+    "hold": 13,
+    "sell": 1,
+    "strongSell": 1
+  },
+  "error": null
+}

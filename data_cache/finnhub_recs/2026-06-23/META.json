@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "META",
+    "period": "2026-06-01",
+    "strongBuy": 22,
+    "buy": 41,
+    "hold": 9,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}

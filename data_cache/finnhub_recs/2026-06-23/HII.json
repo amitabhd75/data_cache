@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "HII",
+    "period": "2026-06-01",
+    "strongBuy": 2,
+    "buy": 7,
+    "hold": 8,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}

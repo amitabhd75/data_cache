@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "CNX",
+    "period": "2026-06-01",
+    "strongBuy": 1,
+    "buy": 0,
+    "hold": 10,
+    "sell": 7,
+    "strongSell": 1
+  },
+  "error": null
+}
