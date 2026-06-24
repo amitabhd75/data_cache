@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "KSS",
+    "period": "2026-06-01",
+    "strongBuy": 2,
+    "buy": 0,
+    "hold": 9,
+    "sell": 9,
+    "strongSell": 1
+  },
+  "error": null
+}

@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "LEG",
+    "period": "2026-06-01",
+    "strongBuy": 0,
+    "buy": 0,
+    "hold": 5,
+    "sell": 4,
+    "strongSell": 1
+  },
+  "error": null
+}

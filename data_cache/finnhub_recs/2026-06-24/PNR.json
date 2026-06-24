@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "PNR",
+    "period": "2026-06-01",
+    "strongBuy": 9,
+    "buy": 7,
+    "hold": 5,
+    "sell": 3,
+    "strongSell": 0
+  },
+  "error": null
+}
