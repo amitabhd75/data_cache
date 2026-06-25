@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "EAT",
+    "period": "2026-06-01",
+    "strongBuy": 8,
+    "buy": 13,
+    "hold": 6,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}

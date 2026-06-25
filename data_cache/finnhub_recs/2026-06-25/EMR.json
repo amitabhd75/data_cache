@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "EMR",
+    "period": "2026-06-01",
+    "strongBuy": 6,
+    "buy": 16,
+    "hold": 11,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "error": null
+}
