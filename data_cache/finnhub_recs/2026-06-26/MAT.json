@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "MAT",
+    "period": "2026-06-01",
+    "strongBuy": 6,
+    "buy": 6,
+    "hold": 8,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "error": null
+}
