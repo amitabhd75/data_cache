@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "VMC",
+    "period": "2026-06-01",
+    "strongBuy": 9,
+    "buy": 9,
+    "hold": 9,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "error": null
+}

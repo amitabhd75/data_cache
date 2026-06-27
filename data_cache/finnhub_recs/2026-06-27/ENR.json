@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "ENR",
+    "period": "2026-06-01",
+    "strongBuy": 1,
+    "buy": 3,
+    "hold": 6,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}
