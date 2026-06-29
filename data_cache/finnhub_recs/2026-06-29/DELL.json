@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "DELL",
+    "period": "2026-06-01",
+    "strongBuy": 8,
+    "buy": 17,
+    "hold": 8,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "error": null
+}

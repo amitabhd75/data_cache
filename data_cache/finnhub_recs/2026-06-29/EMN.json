@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "EMN",
+    "period": "2026-06-01",
+    "strongBuy": 6,
+    "buy": 7,
+    "hold": 9,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}

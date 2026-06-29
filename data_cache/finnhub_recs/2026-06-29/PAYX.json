@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "PAYX",
+    "period": "2026-06-01",
+    "strongBuy": 1,
+    "buy": 0,
+    "hold": 17,
+    "sell": 4,
+    "strongSell": 3
+  },
+  "error": null
+}
