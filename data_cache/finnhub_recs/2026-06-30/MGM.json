@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "MGM",
+    "period": "2026-06-01",
+    "strongBuy": 5,
+    "buy": 12,
+    "hold": 11,
+    "sell": 3,
+    "strongSell": 0
+  },
+  "error": null
+}

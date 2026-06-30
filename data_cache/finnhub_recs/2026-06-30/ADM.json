@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "ADM",
+    "period": "2026-06-01",
+    "strongBuy": 0,
+    "buy": 2,
+    "hold": 10,
+    "sell": 6,
+    "strongSell": 1
+  },
+  "error": null
+}

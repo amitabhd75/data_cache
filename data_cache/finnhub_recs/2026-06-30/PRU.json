@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "PRU",
+    "period": "2026-06-01",
+    "strongBuy": 1,
+    "buy": 0,
+    "hold": 17,
+    "sell": 8,
+    "strongSell": 1
+  },
+  "error": null
+}

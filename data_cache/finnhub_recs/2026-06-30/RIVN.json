@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "RIVN",
+    "period": "2026-06-01",
+    "strongBuy": 5,
+    "buy": 14,
+    "hold": 10,
+    "sell": 4,
+    "strongSell": 1
+  },
+  "error": null
+}
