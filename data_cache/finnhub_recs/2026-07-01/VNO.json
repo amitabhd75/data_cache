@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "VNO",
+    "period": "2026-06-01",
+    "strongBuy": 2,
+    "buy": 5,
+    "hold": 8,
+    "sell": 3,
+    "strongSell": 0
+  },
+  "error": null
+}
