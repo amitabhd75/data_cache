@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "CNA",
+    "period": "2026-06-01",
+    "strongBuy": 0,
+    "buy": 1,
+    "hold": 4,
+    "sell": 5,
+    "strongSell": 1
+  },
+  "error": null
+}

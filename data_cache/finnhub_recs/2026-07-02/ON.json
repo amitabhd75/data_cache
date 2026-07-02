@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "ON",
+    "period": "2026-06-01",
+    "strongBuy": 5,
+    "buy": 17,
+    "hold": 21,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}
