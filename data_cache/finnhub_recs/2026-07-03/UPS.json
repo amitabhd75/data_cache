@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "UPS",
+    "period": "2026-06-01",
+    "strongBuy": 8,
+    "buy": 9,
+    "hold": 12,
+    "sell": 4,
+    "strongSell": 0
+  },
+  "error": null
+}
