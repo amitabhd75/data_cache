@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "ESS",
+    "period": "2026-06-01",
+    "strongBuy": 1,
+    "buy": 8,
+    "hold": 19,
+    "sell": 2,
+    "strongSell": 1
+  },
+  "error": null
+}
