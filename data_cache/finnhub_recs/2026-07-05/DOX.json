@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "DOX",
+    "period": "2026-06-01",
+    "strongBuy": 4,
+    "buy": 3,
+    "hold": 3,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "error": null
+}

@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "VFC",
+    "period": "2026-06-01",
+    "strongBuy": 6,
+    "buy": 6,
+    "hold": 13,
+    "sell": 3,
+    "strongSell": 0
+  },
+  "error": null
+}
