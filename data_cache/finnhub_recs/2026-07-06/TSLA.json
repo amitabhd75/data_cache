@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "TSLA",
+    "period": "2026-06-01",
+    "strongBuy": 9,
+    "buy": 20,
+    "hold": 23,
+    "sell": 7,
+    "strongSell": 1
+  },
+  "error": null
+}

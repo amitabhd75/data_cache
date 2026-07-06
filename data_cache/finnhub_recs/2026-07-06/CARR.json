@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "CARR",
+    "period": "2026-06-01",
+    "strongBuy": 8,
+    "buy": 13,
+    "hold": 12,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}
