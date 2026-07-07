@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "BF.B",
-    "period": "2026-06-01",
+    "period": "2026-07-01",
     "strongBuy": 0,
-    "buy": 2,
-    "hold": 12,
-    "sell": 5,
+    "buy": 1,
+    "hold": 15,
+    "sell": 4,
     "strongSell": 2
   },
   "error": null
