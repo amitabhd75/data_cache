@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "INGR",
+    "period": "2026-07-01",
+    "strongBuy": 2,
+    "buy": 4,
+    "hold": 8,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}
