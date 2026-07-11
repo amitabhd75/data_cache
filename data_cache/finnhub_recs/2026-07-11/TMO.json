@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "TMO",
+    "period": "2026-07-01",
+    "strongBuy": 12,
+    "buy": 17,
+    "hold": 7,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}
