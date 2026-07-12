@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "LLY",
+    "period": "2026-07-01",
+    "strongBuy": 11,
+    "buy": 19,
+    "hold": 7,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "error": null
+}

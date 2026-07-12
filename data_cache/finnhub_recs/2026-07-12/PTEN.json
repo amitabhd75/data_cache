@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "PTEN",
+    "period": "2026-07-01",
+    "strongBuy": 4,
+    "buy": 9,
+    "hold": 7,
+    "sell": 2,
+    "strongSell": 0
+  },
+  "error": null
+}
