@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "ALL",
+    "period": "2026-07-01",
+    "strongBuy": 7,
+    "buy": 9,
+    "hold": 13,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "error": null
+}

@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "WHR",
+    "period": "2026-07-01",
+    "strongBuy": 0,
+    "buy": 2,
+    "hold": 9,
+    "sell": 7,
+    "strongSell": 1
+  },
+  "error": null
+}
