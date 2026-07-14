@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "WEC",
+    "period": "2026-07-01",
+    "strongBuy": 5,
+    "buy": 6,
+    "hold": 13,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "error": null
+}
