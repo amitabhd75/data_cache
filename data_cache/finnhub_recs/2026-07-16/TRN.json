@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "TRN",
+    "period": "2026-07-01",
+    "strongBuy": 0,
+    "buy": 0,
+    "hold": 4,
+    "sell": 4,
+    "strongSell": 1
+  },
+  "error": null
+}

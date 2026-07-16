@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "CF",
+    "period": "2026-07-01",
+    "strongBuy": 4,
+    "buy": 10,
+    "hold": 14,
+    "sell": 3,
+    "strongSell": 0
+  },
+  "error": null
+}
