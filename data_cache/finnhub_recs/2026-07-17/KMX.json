@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "KMX",
+    "period": "2026-07-01",
+    "strongBuy": 2,
+    "buy": 1,
+    "hold": 17,
+    "sell": 7,
+    "strongSell": 1
+  },
+  "error": null
+}
