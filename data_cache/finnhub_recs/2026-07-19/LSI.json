@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "LSI",
+    "period": "2023-08-01",
+    "strongBuy": 2,
+    "buy": 2,
+    "hold": 2,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}

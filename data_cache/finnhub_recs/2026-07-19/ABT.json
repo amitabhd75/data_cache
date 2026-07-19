@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "ABT",
+    "period": "2026-07-01",
+    "strongBuy": 11,
+    "buy": 14,
+    "hold": 10,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}
