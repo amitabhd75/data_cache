@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "FMC",
+    "period": "2026-07-01",
+    "strongBuy": 2,
+    "buy": 5,
+    "hold": 14,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "error": null
+}
