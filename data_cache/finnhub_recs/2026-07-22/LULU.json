@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "LULU",
+    "period": "2026-07-01",
+    "strongBuy": 1,
+    "buy": 1,
+    "hold": 32,
+    "sell": 3,
+    "strongSell": 2
+  },
+  "error": null
+}

@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "IBM",
+    "period": "2026-07-01",
+    "strongBuy": 9,
+    "buy": 10,
+    "hold": 9,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "error": null
+}

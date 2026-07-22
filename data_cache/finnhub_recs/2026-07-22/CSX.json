@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "CSX",
+    "period": "2026-07-01",
+    "strongBuy": 6,
+    "buy": 13,
+    "hold": 8,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "error": null
+}
