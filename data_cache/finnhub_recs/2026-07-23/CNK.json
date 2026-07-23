@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "CNK",
+    "period": "2026-07-01",
+    "strongBuy": 3,
+    "buy": 10,
+    "hold": 3,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "error": null
+}

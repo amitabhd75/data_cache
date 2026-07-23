@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "GM",
+    "period": "2026-07-01",
+    "strongBuy": 10,
+    "buy": 19,
+    "hold": 8,
+    "sell": 2,
+    "strongSell": 0
+  },
+  "error": null
+}
