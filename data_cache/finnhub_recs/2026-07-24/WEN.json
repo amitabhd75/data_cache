@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "WEN",
+    "period": "2026-07-01",
+    "strongBuy": 2,
+    "buy": 2,
+    "hold": 19,
+    "sell": 8,
+    "strongSell": 2
+  },
+  "error": null
+}

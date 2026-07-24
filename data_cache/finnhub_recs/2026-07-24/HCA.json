@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "HCA",
+    "period": "2026-07-01",
+    "strongBuy": 6,
+    "buy": 13,
+    "hold": 10,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "error": null
+}

@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "ANF",
+    "period": "2026-07-01",
+    "strongBuy": 5,
+    "buy": 7,
+    "hold": 5,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "error": null
+}

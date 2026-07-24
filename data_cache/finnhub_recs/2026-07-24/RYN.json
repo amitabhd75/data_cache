@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "RYN",
+    "period": "2026-07-01",
+    "strongBuy": 2,
+    "buy": 3,
+    "hold": 5,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}
