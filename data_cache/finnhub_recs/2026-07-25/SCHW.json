@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "SCHW",
+    "period": "2026-07-01",
+    "strongBuy": 7,
+    "buy": 17,
+    "hold": 3,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "error": null
+}

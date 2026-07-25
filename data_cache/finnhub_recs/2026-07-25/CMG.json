@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "CMG",
+    "period": "2026-07-01",
+    "strongBuy": 10,
+    "buy": 20,
+    "hold": 12,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}
