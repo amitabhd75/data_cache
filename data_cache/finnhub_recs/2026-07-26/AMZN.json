@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "AMZN",
+    "period": "2026-07-01",
+    "strongBuy": 21,
+    "buy": 49,
+    "hold": 5,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}
