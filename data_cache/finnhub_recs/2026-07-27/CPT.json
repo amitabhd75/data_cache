@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "CPT",
+    "period": "2026-07-01",
+    "strongBuy": 7,
+    "buy": 4,
+    "hold": 15,
+    "sell": 3,
+    "strongSell": 0
+  },
+  "error": null
+}

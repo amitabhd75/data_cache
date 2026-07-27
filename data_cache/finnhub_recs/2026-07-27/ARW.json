@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "ARW",
+    "period": "2026-07-01",
+    "strongBuy": 1,
+    "buy": 4,
+    "hold": 4,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "error": null
+}
