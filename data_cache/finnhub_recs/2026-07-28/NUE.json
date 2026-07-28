@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "NUE",
+    "period": "2026-07-01",
+    "strongBuy": 5,
+    "buy": 13,
+    "hold": 4,
+    "sell": 2,
+    "strongSell": 0
+  },
+  "error": null
+}

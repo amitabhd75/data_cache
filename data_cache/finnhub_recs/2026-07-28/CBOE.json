@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "CBOE",
+    "period": "2026-07-01",
+    "strongBuy": 2,
+    "buy": 7,
+    "hold": 12,
+    "sell": 3,
+    "strongSell": 0
+  },
+  "error": null
+}
