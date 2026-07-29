@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "FDS",
+    "period": "2026-07-01",
+    "strongBuy": 0,
+    "buy": 3,
+    "hold": 13,
+    "sell": 9,
+    "strongSell": 2
+  },
+  "error": null
+}

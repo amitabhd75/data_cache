@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "GWW",
+    "period": "2026-07-01",
+    "strongBuy": 5,
+    "buy": 3,
+    "hold": 12,
+    "sell": 3,
+    "strongSell": 1
+  },
+  "error": null
+}
