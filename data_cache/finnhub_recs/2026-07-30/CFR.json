@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "CFR",
+    "period": "2026-07-01",
+    "strongBuy": 2,
+    "buy": 7,
+    "hold": 7,
+    "sell": 1,
+    "strongSell": 2
+  },
+  "error": null
+}
