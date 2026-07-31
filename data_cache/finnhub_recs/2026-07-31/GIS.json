@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "GIS",
+    "period": "2026-07-01",
+    "strongBuy": 2,
+    "buy": 2,
+    "hold": 14,
+    "sell": 7,
+    "strongSell": 2
+  },
+  "error": null
+}
