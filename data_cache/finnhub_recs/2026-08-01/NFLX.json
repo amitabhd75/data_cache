@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "NFLX",
+    "period": "2026-07-01",
+    "strongBuy": 16,
+    "buy": 29,
+    "hold": 13,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}

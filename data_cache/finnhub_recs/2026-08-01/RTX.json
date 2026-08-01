@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "RTX",
+    "period": "2026-07-01",
+    "strongBuy": 7,
+    "buy": 13,
+    "hold": 8,
+    "sell": 1,
+    "strongSell": 1
+  },
+  "error": null
+}

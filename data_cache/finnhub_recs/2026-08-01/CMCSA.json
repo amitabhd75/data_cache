@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "CMCSA",
+    "period": "2026-07-01",
+    "strongBuy": 5,
+    "buy": 11,
+    "hold": 21,
+    "sell": 3,
+    "strongSell": 0
+  },
+  "error": null
+}
