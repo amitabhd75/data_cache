@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "TER",
+    "period": "2026-07-01",
+    "strongBuy": 5,
+    "buy": 11,
+    "hold": 6,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "error": null
+}
