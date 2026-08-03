@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "9618.HK",
+    "period": "2026-07-01",
+    "strongBuy": 9,
+    "buy": 18,
+    "hold": 3,
+    "sell": 0,
+    "strongSell": 1
+  },
+  "error": null
+}

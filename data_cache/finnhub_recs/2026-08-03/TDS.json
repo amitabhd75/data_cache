@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "TDS",
+    "period": "2026-07-01",
+    "strongBuy": 2,
+    "buy": 3,
+    "hold": 2,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "error": null
+}
