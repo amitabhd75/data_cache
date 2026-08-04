@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "GOOGL",
-    "period": "2026-07-01",
-    "strongBuy": 18,
+    "period": "2026-08-01",
+    "strongBuy": 20,
     "buy": 42,
-    "hold": 9,
+    "hold": 8,
     "sell": 0,
     "strongSell": 0
   },

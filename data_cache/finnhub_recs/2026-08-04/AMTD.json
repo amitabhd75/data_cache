@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "AMTD",
+    "period": "2022-04-01",
+    "strongBuy": 2,
+    "buy": 4,
+    "hold": 1,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}
