@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "CRWD",
+    "period": "2026-08-01",
+    "strongBuy": 12,
+    "buy": 34,
+    "hold": 13,
+    "sell": 1,
+    "strongSell": 1
+  },
+  "error": null
+}
