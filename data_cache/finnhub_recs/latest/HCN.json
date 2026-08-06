@@ -1,6 +1,6 @@
 {
   "ok": false,
-  "status": 521,
+  "status": 200,
   "data": null,
-  "error": "521 Server Error: <none> for url: https://finnhub.io/api/v1/stock/recommendation?symbol=HCN&token=d5m53a1r01qidp4k0glgd5m53a1r01qidp4k0gm0"
+  "error": "empty recommendation list"
 }
