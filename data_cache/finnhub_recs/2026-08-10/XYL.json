@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "XYL",
+    "period": "2026-08-01",
+    "strongBuy": 8,
+    "buy": 11,
+    "hold": 9,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}
