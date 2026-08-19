@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "DNB",
+    "period": "2025-12-01",
+    "strongBuy": 0,
+    "buy": 1,
+    "hold": 6,
+    "sell": 5,
+    "strongSell": 1
+  },
+  "error": null
+}
