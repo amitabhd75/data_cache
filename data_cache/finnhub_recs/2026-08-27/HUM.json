@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "HUM",
+    "period": "2026-08-01",
+    "strongBuy": 8,
+    "buy": 8,
+    "hold": 15,
+    "sell": 2,
+    "strongSell": 0
+  },
+  "error": null
+}
