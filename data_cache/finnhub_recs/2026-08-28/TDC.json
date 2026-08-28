@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "TDC",
+    "period": "2026-08-01",
+    "strongBuy": 2,
+    "buy": 5,
+    "hold": 5,
+    "sell": 2,
+    "strongSell": 0
+  },
+  "error": null
+}
