@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "FOXA",
-    "period": "2026-08-01",
+    "period": "2026-09-01",
     "strongBuy": 5,
-    "buy": 10,
-    "hold": 11,
+    "buy": 11,
+    "hold": 10,
     "sell": 1,
     "strongSell": 0
   },
