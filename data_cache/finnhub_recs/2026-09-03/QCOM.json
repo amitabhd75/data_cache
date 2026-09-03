@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "QCOM",
+    "period": "2026-09-01",
+    "strongBuy": 5,
+    "buy": 15,
+    "hold": 26,
+    "sell": 3,
+    "strongSell": 0
+  },
+  "error": null
+}

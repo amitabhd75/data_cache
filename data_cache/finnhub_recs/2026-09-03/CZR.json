@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "CZR",
+    "period": "2026-09-01",
+    "strongBuy": 2,
+    "buy": 3,
+    "hold": 16,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}

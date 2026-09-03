@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "PG",
+    "period": "2026-09-01",
+    "strongBuy": 6,
+    "buy": 13,
+    "hold": 17,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "error": null
+}
