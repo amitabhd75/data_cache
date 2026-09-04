@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "LAMR",
+    "period": "2026-09-01",
+    "strongBuy": 2,
+    "buy": 4,
+    "hold": 7,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}
