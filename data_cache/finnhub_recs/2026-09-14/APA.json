@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "APA",
+    "period": "2026-09-01",
+    "strongBuy": 4,
+    "buy": 8,
+    "hold": 16,
+    "sell": 3,
+    "strongSell": 0
+  },
+  "error": null
+}
