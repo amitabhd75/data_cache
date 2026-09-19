@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "DISH",
+    "period": "2024-01-01",
+    "strongBuy": 5,
+    "buy": 5,
+    "hold": 9,
+    "sell": 2,
+    "strongSell": 1
+  },
+  "error": null
+}
