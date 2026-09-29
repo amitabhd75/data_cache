@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "NXPI",
+    "period": "2026-09-01",
+    "strongBuy": 9,
+    "buy": 18,
+    "hold": 8,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "error": null
+}
