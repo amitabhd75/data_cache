@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "HAL",
+    "period": "2026-09-01",
+    "strongBuy": 8,
+    "buy": 18,
+    "hold": 7,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "error": null
+}
