@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "SNA",
+    "period": "2026-09-01",
+    "strongBuy": 2,
+    "buy": 6,
+    "hold": 6,
+    "sell": 2,
+    "strongSell": 0
+  },
+  "error": null
+}
