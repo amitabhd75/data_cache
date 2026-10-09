@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "PWR",
+    "period": "2026-09-01",
+    "strongBuy": 11,
+    "buy": 17,
+    "hold": 8,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}
