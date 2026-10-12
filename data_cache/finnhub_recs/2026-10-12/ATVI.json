@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "ATVI",
+    "period": "2023-11-01",
+    "strongBuy": 3,
+    "buy": 5,
+    "hold": 18,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}

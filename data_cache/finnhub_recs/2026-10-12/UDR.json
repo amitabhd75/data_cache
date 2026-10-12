@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "UDR",
+    "period": "2026-09-01",
+    "strongBuy": 3,
+    "buy": 9,
+    "hold": 13,
+    "sell": 3,
+    "strongSell": 0
+  },
+  "error": null
+}
