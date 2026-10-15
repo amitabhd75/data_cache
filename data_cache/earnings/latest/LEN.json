@@ -1,9 +1,9 @@
 {
-  "ok": false,
+  "ok": true,
   "symbol": "LEN",
-  "asof": "2026-10-14",
-  "earnings_date": null,
+  "asof": "2026-10-15",
+  "earnings_date": "2026-12-14",
   "source": "FH",
-  "status": 200,
-  "error": "empty earningsCalendar"
+  "status": null,
+  "error": null
 }
