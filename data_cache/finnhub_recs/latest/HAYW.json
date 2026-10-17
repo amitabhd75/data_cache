@@ -1,6 +1,14 @@
 {
-  "ok": false,
-  "status": null,
-  "data": null,
-  "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "HAYW",
+    "period": "2026-09-01",
+    "strongBuy": 5,
+    "buy": 3,
+    "hold": 7,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
 }
