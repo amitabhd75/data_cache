@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "META",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 20,
-    "buy": 42,
-    "hold": 9,
-    "sell": 0,
+    "buy": 41,
+    "hold": 7,
+    "sell": 1,
     "strongSell": 0
   },
   "error": null

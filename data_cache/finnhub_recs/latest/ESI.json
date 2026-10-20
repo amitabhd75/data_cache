@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "ESI",
-    "period": "2026-09-01",
-    "strongBuy": 2,
-    "buy": 9,
+    "period": "2026-10-01",
+    "strongBuy": 4,
+    "buy": 11,
     "hold": 2,
     "sell": 0,
     "strongSell": 0

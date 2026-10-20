@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "SPG",
-    "period": "2026-09-01",
-    "strongBuy": 6,
+    "period": "2026-10-01",
+    "strongBuy": 5,
     "buy": 4,
-    "hold": 16,
+    "hold": 15,
     "sell": 0,
     "strongSell": 0
   },

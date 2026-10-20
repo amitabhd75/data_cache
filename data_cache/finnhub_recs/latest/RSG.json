@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "RSG",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 7,
     "buy": 11,
-    "hold": 15,
+    "hold": 14,
     "sell": 0,
     "strongSell": 0
   },

@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "UBER",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 15,
-    "buy": 35,
+    "buy": 36,
     "hold": 7,
     "sell": 1,
     "strongSell": 0

@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "TDG",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 5,
-    "buy": 9,
-    "hold": 12,
+    "buy": 8,
+    "hold": 13,
     "sell": 1,
     "strongSell": 0
   },

@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "ABNB",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 10,
-    "buy": 20,
+    "buy": 21,
     "hold": 19,
-    "sell": 2,
+    "sell": 1,
     "strongSell": 0
   },
   "error": null

@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "INTU",
-    "period": "2026-09-01",
-    "strongBuy": 9,
-    "buy": 15,
-    "hold": 16,
+    "period": "2026-10-01",
+    "strongBuy": 8,
+    "buy": 16,
+    "hold": 15,
     "sell": 2,
     "strongSell": 0
   },

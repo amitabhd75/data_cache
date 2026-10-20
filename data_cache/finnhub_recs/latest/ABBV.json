@@ -3,7 +3,7 @@
   "status": 200,
   "data": {
     "symbol": "ABBV",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 10,
     "buy": 22,
     "hold": 7,

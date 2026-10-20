@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "CFR",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 3,
-    "buy": 6,
+    "buy": 7,
     "hold": 8,
-    "sell": 1,
+    "sell": 0,
     "strongSell": 1
   },
   "error": null

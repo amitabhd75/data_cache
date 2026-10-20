@@ -3,8 +3,8 @@
   "status": 200,
   "data": {
     "symbol": "PANW",
-    "period": "2026-09-01",
-    "strongBuy": 16,
+    "period": "2026-10-01",
+    "strongBuy": 15,
     "buy": 33,
     "hold": 13,
     "sell": 1,

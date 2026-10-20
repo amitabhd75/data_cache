@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "NKE",
-    "period": "2026-09-01",
-    "strongBuy": 10,
-    "buy": 8,
-    "hold": 25,
-    "sell": 3,
+    "period": "2026-10-01",
+    "strongBuy": 9,
+    "buy": 7,
+    "hold": 26,
+    "sell": 6,
     "strongSell": 0
   },
   "error": null

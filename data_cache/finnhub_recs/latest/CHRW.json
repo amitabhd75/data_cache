@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "CHRW",
-    "period": "2026-09-01",
-    "strongBuy": 8,
+    "period": "2026-10-01",
+    "strongBuy": 9,
     "buy": 15,
-    "hold": 8,
+    "hold": 7,
     "sell": 1,
     "strongSell": 0
   },

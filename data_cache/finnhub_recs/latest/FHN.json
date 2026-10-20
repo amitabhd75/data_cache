@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "FHN",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 5,
     "buy": 6,
-    "hold": 13,
+    "hold": 14,
     "sell": 0,
     "strongSell": 0
   },

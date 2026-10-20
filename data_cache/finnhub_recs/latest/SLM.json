@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "SLM",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 3,
     "buy": 6,
-    "hold": 4,
-    "sell": 2,
+    "hold": 5,
+    "sell": 1,
     "strongSell": 0
   },
   "error": null

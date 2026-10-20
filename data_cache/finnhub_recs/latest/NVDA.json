@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "NVDA",
-    "period": "2026-09-01",
-    "strongBuy": 24,
+    "period": "2026-10-01",
+    "strongBuy": 25,
     "buy": 41,
-    "hold": 3,
+    "hold": 2,
     "sell": 1,
     "strongSell": 0
   },

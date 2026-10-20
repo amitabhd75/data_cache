@@ -3,8 +3,8 @@
   "status": 200,
   "data": {
     "symbol": "EQT",
-    "period": "2026-09-01",
-    "strongBuy": 8,
+    "period": "2026-10-01",
+    "strongBuy": 9,
     "buy": 16,
     "hold": 6,
     "sell": 0,

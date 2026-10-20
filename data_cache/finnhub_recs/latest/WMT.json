@@ -3,7 +3,7 @@
   "status": 200,
   "data": {
     "symbol": "WMT",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 12,
     "buy": 30,
     "hold": 6,

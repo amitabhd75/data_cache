@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "TTD",
-    "period": "2026-09-01",
-    "strongBuy": 2,
+    "period": "2026-10-01",
+    "strongBuy": 1,
     "buy": 4,
-    "hold": 27,
+    "hold": 28,
     "sell": 10,
     "strongSell": 2
   },

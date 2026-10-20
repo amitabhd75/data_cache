@@ -3,8 +3,8 @@
   "status": 200,
   "data": {
     "symbol": "MDT",
-    "period": "2026-09-01",
-    "strongBuy": 10,
+    "period": "2026-10-01",
+    "strongBuy": 9,
     "buy": 13,
     "hold": 11,
     "sell": 0,

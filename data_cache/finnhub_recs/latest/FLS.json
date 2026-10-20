@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "FLS",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 6,
-    "buy": 5,
-    "hold": 6,
+    "buy": 6,
+    "hold": 5,
     "sell": 0,
     "strongSell": 0
   },

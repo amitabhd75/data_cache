@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "SNPS",
-    "period": "2026-09-01",
-    "strongBuy": 10,
-    "buy": 16,
-    "hold": 5,
-    "sell": 1,
+    "period": "2026-10-01",
+    "strongBuy": 9,
+    "buy": 18,
+    "hold": 3,
+    "sell": 0,
     "strongSell": 0
   },
   "error": null

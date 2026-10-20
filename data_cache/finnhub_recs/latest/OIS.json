@@ -3,7 +3,7 @@
   "status": 200,
   "data": {
     "symbol": "OIS",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 2,
     "buy": 4,
     "hold": 2,

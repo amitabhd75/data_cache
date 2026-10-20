@@ -3,12 +3,12 @@
   "status": 200,
   "data": {
     "symbol": "SIRI",
-    "period": "2026-09-01",
-    "strongBuy": 2,
-    "buy": 2,
-    "hold": 10,
-    "sell": 4,
-    "strongSell": 3
+    "period": "2026-10-01",
+    "strongBuy": 4,
+    "buy": 7,
+    "hold": 7,
+    "sell": 3,
+    "strongSell": 1
   },
   "error": null
 }

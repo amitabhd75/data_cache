@@ -3,8 +3,8 @@
   "status": 200,
   "data": {
     "symbol": "COR",
-    "period": "2026-09-01",
-    "strongBuy": 5,
+    "period": "2026-10-01",
+    "strongBuy": 4,
     "buy": 10,
     "hold": 6,
     "sell": 0,

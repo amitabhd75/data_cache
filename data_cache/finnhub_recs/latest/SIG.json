@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "SIG",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 4,
     "buy": 5,
-    "hold": 7,
+    "hold": 8,
     "sell": 0,
     "strongSell": 0
   },

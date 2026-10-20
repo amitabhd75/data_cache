@@ -3,12 +3,12 @@
   "status": 200,
   "data": {
     "symbol": "PAYX",
-    "period": "2026-09-01",
-    "strongBuy": 2,
-    "buy": 0,
-    "hold": 15,
-    "sell": 4,
-    "strongSell": 3
+    "period": "2026-10-01",
+    "strongBuy": 4,
+    "buy": 4,
+    "hold": 16,
+    "sell": 2,
+    "strongSell": 0
   },
   "error": null
 }

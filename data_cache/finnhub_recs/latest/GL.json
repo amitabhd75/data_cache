@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "GL",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 4,
-    "buy": 14,
-    "hold": 5,
+    "buy": 13,
+    "hold": 6,
     "sell": 0,
     "strongSell": 0
   },

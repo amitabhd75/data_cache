@@ -3,8 +3,8 @@
   "status": 200,
   "data": {
     "symbol": "KIM",
-    "period": "2026-09-01",
-    "strongBuy": 7,
+    "period": "2026-10-01",
+    "strongBuy": 6,
     "buy": 6,
     "hold": 15,
     "sell": 0,

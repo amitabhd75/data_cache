@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "ADI",
-    "period": "2026-09-01",
-    "strongBuy": 13,
+    "period": "2026-10-01",
+    "strongBuy": 12,
     "buy": 22,
-    "hold": 4,
+    "hold": 3,
     "sell": 0,
     "strongSell": 0
   },

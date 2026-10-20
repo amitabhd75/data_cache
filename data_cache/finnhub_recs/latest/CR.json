@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "CR",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 6,
-    "buy": 12,
-    "hold": 1,
+    "buy": 11,
+    "hold": 2,
     "sell": 0,
     "strongSell": 0
   },

@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "PODD",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 9,
-    "buy": 11,
+    "buy": 10,
     "hold": 13,
     "sell": 0,
     "strongSell": 0

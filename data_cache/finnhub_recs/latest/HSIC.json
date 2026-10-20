@@ -3,8 +3,8 @@
   "status": 200,
   "data": {
     "symbol": "HSIC",
-    "period": "2026-09-01",
-    "strongBuy": 7,
+    "period": "2026-10-01",
+    "strongBuy": 6,
     "buy": 8,
     "hold": 9,
     "sell": 1,

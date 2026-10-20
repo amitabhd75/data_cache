@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "BOH",
-    "period": "2026-09-01",
-    "strongBuy": 1,
+    "period": "2026-10-01",
+    "strongBuy": 0,
     "buy": 1,
-    "hold": 6,
+    "hold": 7,
     "sell": 6,
     "strongSell": 1
   },

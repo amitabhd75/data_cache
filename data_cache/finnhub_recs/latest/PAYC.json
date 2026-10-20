@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "PAYC",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 5,
     "buy": 7,
     "hold": 15,
-    "sell": 0,
+    "sell": 1,
     "strongSell": 0
   },
   "error": null

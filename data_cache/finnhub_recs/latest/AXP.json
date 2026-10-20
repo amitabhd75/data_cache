@@ -3,12 +3,12 @@
   "status": 200,
   "data": {
     "symbol": "AXP",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 5,
-    "buy": 15,
+    "buy": 14,
     "hold": 16,
     "sell": 0,
-    "strongSell": 1
+    "strongSell": 0
   },
   "error": null
 }

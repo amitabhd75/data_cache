@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "MAR",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 5,
-    "buy": 11,
-    "hold": 15,
+    "buy": 12,
+    "hold": 16,
     "sell": 1,
     "strongSell": 0
   },

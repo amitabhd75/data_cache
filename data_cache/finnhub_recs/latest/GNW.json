@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "GNW",
-    "period": "2026-09-01",
-    "strongBuy": 1,
+    "period": "2026-10-01",
+    "strongBuy": 2,
     "buy": 3,
-    "hold": 2,
+    "hold": 1,
     "sell": 0,
     "strongSell": 0
   },

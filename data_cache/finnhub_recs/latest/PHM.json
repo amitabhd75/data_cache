@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "PHM",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 4,
-    "buy": 9,
-    "hold": 7,
+    "buy": 10,
+    "hold": 6,
     "sell": 2,
     "strongSell": 0
   },

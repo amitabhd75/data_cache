@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "FISV",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 4,
     "buy": 10,
-    "hold": 27,
+    "hold": 28,
     "sell": 2,
     "strongSell": 0
   },

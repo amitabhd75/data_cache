@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "RTX",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 7,
     "buy": 13,
-    "hold": 9,
+    "hold": 8,
     "sell": 0,
     "strongSell": 1
   },

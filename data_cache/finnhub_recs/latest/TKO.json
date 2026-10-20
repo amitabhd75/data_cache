@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "TKO",
-    "period": "2026-09-01",
-    "strongBuy": 9,
+    "period": "2026-10-01",
+    "strongBuy": 10,
     "buy": 12,
-    "hold": 6,
+    "hold": 5,
     "sell": 0,
     "strongSell": 0
   },

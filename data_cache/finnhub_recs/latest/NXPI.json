@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "NXPI",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 9,
-    "buy": 18,
+    "buy": 17,
     "hold": 8,
     "sell": 1,
     "strongSell": 0

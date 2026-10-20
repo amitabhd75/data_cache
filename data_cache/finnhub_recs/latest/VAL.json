@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "VAL",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 0,
     "buy": 0,
-    "hold": 12,
-    "sell": 5,
+    "hold": 11,
+    "sell": 4,
     "strongSell": 1
   },
   "error": null

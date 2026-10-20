@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "DASH",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 13,
     "buy": 29,
-    "hold": 11,
+    "hold": 12,
     "sell": 0,
     "strongSell": 0
   },

@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "DG",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 10,
-    "buy": 8,
-    "hold": 21,
+    "buy": 9,
+    "hold": 20,
     "sell": 1,
     "strongSell": 0
   },

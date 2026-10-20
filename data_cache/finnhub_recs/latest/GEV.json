@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "GEV",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 11,
-    "buy": 24,
+    "buy": 23,
     "hold": 7,
-    "sell": 0,
+    "sell": 1,
     "strongSell": 0
   },
   "error": null

@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "PGR",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 3,
-    "buy": 9,
-    "hold": 18,
+    "buy": 8,
+    "hold": 19,
     "sell": 1,
     "strongSell": 0
   },

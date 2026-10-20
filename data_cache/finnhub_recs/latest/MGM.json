@@ -3,8 +3,8 @@
   "status": 200,
   "data": {
     "symbol": "MGM",
-    "period": "2026-09-01",
-    "strongBuy": 4,
+    "period": "2026-10-01",
+    "strongBuy": 3,
     "buy": 11,
     "hold": 13,
     "sell": 2,

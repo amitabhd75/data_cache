@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "PEP",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 2,
-    "buy": 10,
-    "hold": 17,
+    "buy": 8,
+    "hold": 18,
     "sell": 1,
     "strongSell": 0
   },

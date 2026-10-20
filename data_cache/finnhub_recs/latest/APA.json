@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "APA",
-    "period": "2026-09-01",
-    "strongBuy": 4,
+    "period": "2026-10-01",
+    "strongBuy": 5,
     "buy": 8,
-    "hold": 16,
+    "hold": 17,
     "sell": 3,
     "strongSell": 0
   },

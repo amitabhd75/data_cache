@@ -3,12 +3,12 @@
   "status": 200,
   "data": {
     "symbol": "SMCI",
-    "period": "2026-09-01",
-    "strongBuy": 3,
-    "buy": 7,
-    "hold": 13,
-    "sell": 4,
-    "strongSell": 0
+    "period": "2026-10-01",
+    "strongBuy": 0,
+    "buy": 4,
+    "hold": 14,
+    "sell": 5,
+    "strongSell": 2
   },
   "error": null
 }

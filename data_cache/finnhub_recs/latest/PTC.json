@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "PTC",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 6,
     "buy": 11,
-    "hold": 8,
+    "hold": 6,
     "sell": 1,
     "strongSell": 0
   },

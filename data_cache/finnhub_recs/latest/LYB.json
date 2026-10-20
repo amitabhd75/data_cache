@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "LYB",
-    "period": "2026-09-01",
-    "strongBuy": 2,
-    "buy": 10,
-    "hold": 9,
+    "period": "2026-10-01",
+    "strongBuy": 1,
+    "buy": 9,
+    "hold": 11,
     "sell": 3,
     "strongSell": 1
   },

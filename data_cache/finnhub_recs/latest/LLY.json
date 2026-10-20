@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "LLY",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 11,
-    "buy": 19,
-    "hold": 7,
+    "buy": 20,
+    "hold": 4,
     "sell": 1,
     "strongSell": 0
   },

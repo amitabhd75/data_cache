@@ -3,12 +3,12 @@
   "status": 200,
   "data": {
     "symbol": "TSLA",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 10,
-    "buy": 20,
-    "hold": 25,
+    "buy": 17,
+    "hold": 22,
     "sell": 5,
-    "strongSell": 1
+    "strongSell": 0
   },
   "error": null
 }

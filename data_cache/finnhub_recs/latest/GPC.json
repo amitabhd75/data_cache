@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "GPC",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 3,
-    "buy": 7,
+    "buy": 5,
     "hold": 9,
     "sell": 0,
     "strongSell": 0

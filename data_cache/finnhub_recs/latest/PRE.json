@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "PRE",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 1,
-    "buy": 6,
+    "buy": 7,
     "hold": 1,
     "sell": 0,
     "strongSell": 0

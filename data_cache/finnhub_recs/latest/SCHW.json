@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "SCHW",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 8,
-    "buy": 17,
+    "buy": 16,
     "hold": 4,
     "sell": 1,
     "strongSell": 0

@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "NTRS",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 1,
     "buy": 1,
-    "hold": 14,
+    "hold": 13,
     "sell": 3,
     "strongSell": 2
   },

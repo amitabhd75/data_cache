@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "CE",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 8,
-    "buy": 9,
+    "buy": 10,
     "hold": 8,
     "sell": 1,
     "strongSell": 0

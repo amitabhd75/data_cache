@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "NOW",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 16,
-    "buy": 34,
+    "buy": 31,
     "hold": 3,
     "sell": 2,
     "strongSell": 0

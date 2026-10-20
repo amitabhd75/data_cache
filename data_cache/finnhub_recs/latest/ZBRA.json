@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "ZBRA",
-    "period": "2026-09-01",
-    "strongBuy": 6,
-    "buy": 13,
-    "hold": 6,
+    "period": "2026-10-01",
+    "strongBuy": 5,
+    "buy": 11,
+    "hold": 7,
     "sell": 0,
     "strongSell": 0
   },

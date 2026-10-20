@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "SBUX",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 8,
-    "buy": 14,
-    "hold": 20,
+    "buy": 12,
+    "hold": 21,
     "sell": 3,
     "strongSell": 1
   },

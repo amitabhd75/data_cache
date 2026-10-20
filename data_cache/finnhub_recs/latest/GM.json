@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "GM",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 11,
-    "buy": 19,
-    "hold": 7,
-    "sell": 1,
+    "buy": 18,
+    "hold": 6,
+    "sell": 0,
     "strongSell": 0
   },
   "error": null

@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "VRTX",
-    "period": "2026-09-01",
-    "strongBuy": 11,
-    "buy": 18,
+    "period": "2026-10-01",
+    "strongBuy": 12,
+    "buy": 20,
     "hold": 6,
     "sell": 0,
     "strongSell": 1

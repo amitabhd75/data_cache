@@ -3,8 +3,8 @@
   "status": 200,
   "data": {
     "symbol": "CF",
-    "period": "2026-09-01",
-    "strongBuy": 4,
+    "period": "2026-10-01",
+    "strongBuy": 5,
     "buy": 8,
     "hold": 15,
     "sell": 3,

@@ -3,12 +3,12 @@
   "status": 200,
   "data": {
     "symbol": "RF",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 5,
     "buy": 8,
-    "hold": 13,
+    "hold": 14,
     "sell": 3,
-    "strongSell": 1
+    "strongSell": 0
   },
   "error": null
 }

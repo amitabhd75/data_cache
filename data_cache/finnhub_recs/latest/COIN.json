@@ -3,12 +3,12 @@
   "status": 200,
   "data": {
     "symbol": "COIN",
-    "period": "2026-09-01",
-    "strongBuy": 11,
+    "period": "2026-10-01",
+    "strongBuy": 10,
     "buy": 21,
-    "hold": 10,
+    "hold": 13,
     "sell": 1,
-    "strongSell": 2
+    "strongSell": 1
   },
   "error": null
 }

@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "UPS",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 9,
-    "buy": 9,
+    "buy": 8,
     "hold": 13,
     "sell": 4,
     "strongSell": 0

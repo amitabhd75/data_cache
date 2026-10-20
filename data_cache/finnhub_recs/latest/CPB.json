@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "CPB",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 0,
-    "buy": 1,
-    "hold": 15,
+    "buy": 0,
+    "hold": 16,
     "sell": 10,
     "strongSell": 2
   },

@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "CRM",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 14,
-    "buy": 30,
-    "hold": 13,
+    "buy": 26,
+    "hold": 14,
     "sell": 1,
     "strongSell": 1
   },

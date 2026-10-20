@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "UNH",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 8,
-    "buy": 19,
+    "buy": 18,
     "hold": 7,
     "sell": 0,
     "strongSell": 0

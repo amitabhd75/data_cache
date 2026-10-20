@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "RGA",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 2,
-    "buy": 7,
-    "hold": 5,
+    "buy": 8,
+    "hold": 4,
     "sell": 1,
     "strongSell": 0
   },

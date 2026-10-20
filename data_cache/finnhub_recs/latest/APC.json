@@ -3,8 +3,8 @@
   "status": 200,
   "data": {
     "symbol": "APC",
-    "period": "2026-09-01",
-    "strongBuy": 3,
+    "period": "2026-10-01",
+    "strongBuy": 2,
     "buy": 4,
     "hold": 2,
     "sell": 0,

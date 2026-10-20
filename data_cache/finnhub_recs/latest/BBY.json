@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "BBY",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 2,
-    "buy": 5,
-    "hold": 21,
+    "buy": 4,
+    "hold": 22,
     "sell": 2,
     "strongSell": 0
   },

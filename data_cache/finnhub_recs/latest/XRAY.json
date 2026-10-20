@@ -3,12 +3,12 @@
   "status": 200,
   "data": {
     "symbol": "XRAY",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 4,
     "buy": 4,
-    "hold": 13,
+    "hold": 14,
     "sell": 1,
-    "strongSell": 1
+    "strongSell": 0
   },
   "error": null
 }

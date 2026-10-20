@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "ROP",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 6,
-    "buy": 6,
+    "buy": 4,
     "hold": 12,
     "sell": 2,
     "strongSell": 0

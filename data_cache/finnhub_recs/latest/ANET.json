@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "ANET",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 9,
-    "buy": 24,
-    "hold": 2,
+    "buy": 25,
+    "hold": 1,
     "sell": 0,
     "strongSell": 0
   },

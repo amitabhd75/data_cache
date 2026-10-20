@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "PLD",
-    "period": "2026-09-01",
-    "strongBuy": 5,
+    "period": "2026-10-01",
+    "strongBuy": 4,
     "buy": 10,
-    "hold": 8,
+    "hold": 7,
     "sell": 0,
     "strongSell": 0
   },

@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "GRMN",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 3,
     "buy": 4,
-    "hold": 8,
+    "hold": 7,
     "sell": 1,
     "strongSell": 0
   },

@@ -1,0 +1,9 @@
+{
+  "ok": false,
+  "symbol": "ASML",
+  "asof": "2026-10-20",
+  "earnings_date": null,
+  "source": "FH",
+  "status": null,
+  "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+}

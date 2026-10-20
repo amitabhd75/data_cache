@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "PFE",
-    "period": "2026-09-01",
-    "strongBuy": 6,
+    "period": "2026-10-01",
+    "strongBuy": 5,
     "buy": 8,
-    "hold": 20,
+    "hold": 18,
     "sell": 1,
     "strongSell": 1
   },

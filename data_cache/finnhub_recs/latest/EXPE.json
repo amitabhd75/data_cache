@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "EXPE",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 10,
     "buy": 11,
-    "hold": 24,
-    "sell": 0,
+    "hold": 23,
+    "sell": 1,
     "strongSell": 0
   },
   "error": null

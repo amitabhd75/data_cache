@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "WU",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 0,
     "buy": 0,
     "hold": 12,
-    "sell": 10,
+    "sell": 9,
     "strongSell": 5
   },
   "error": null

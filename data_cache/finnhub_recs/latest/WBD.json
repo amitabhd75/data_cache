@@ -3,12 +3,12 @@
   "status": 200,
   "data": {
     "symbol": "WBD",
-    "period": "2026-09-01",
-    "strongBuy": 2,
-    "buy": 5,
-    "hold": 17,
-    "sell": 1,
-    "strongSell": 0
+    "period": "2026-10-01",
+    "strongBuy": 0,
+    "buy": 2,
+    "hold": 19,
+    "sell": 5,
+    "strongSell": 2
   },
   "error": null
 }

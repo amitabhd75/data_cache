@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "MDB",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 15,
-    "buy": 24,
+    "buy": 23,
     "hold": 9,
     "sell": 0,
     "strongSell": 0

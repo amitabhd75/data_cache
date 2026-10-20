@@ -3,12 +3,12 @@
   "status": 200,
   "data": {
     "symbol": "NNN",
-    "period": "2026-09-01",
-    "strongBuy": 1,
-    "buy": 2,
-    "hold": 15,
-    "sell": 7,
-    "strongSell": 1
+    "period": "2026-10-01",
+    "strongBuy": 2,
+    "buy": 5,
+    "hold": 13,
+    "sell": 3,
+    "strongSell": 0
   },
   "error": null
 }

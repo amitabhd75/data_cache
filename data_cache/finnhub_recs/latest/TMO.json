@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "TMO",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 11,
-    "buy": 18,
-    "hold": 7,
+    "buy": 19,
+    "hold": 5,
     "sell": 0,
     "strongSell": 0
   },

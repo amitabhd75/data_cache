@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "NFLX",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 14,
     "buy": 29,
-    "hold": 15,
-    "sell": 0,
+    "hold": 13,
+    "sell": 1,
     "strongSell": 0
   },
   "error": null

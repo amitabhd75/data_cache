@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "INGR",
-    "period": "2026-09-01",
+    "period": "2026-10-01",
     "strongBuy": 2,
-    "buy": 4,
-    "hold": 8,
+    "buy": 5,
+    "hold": 7,
     "sell": 0,
     "strongSell": 0
   },
