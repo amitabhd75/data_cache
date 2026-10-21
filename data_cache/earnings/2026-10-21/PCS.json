@@ -1,0 +1,9 @@
+{
+  "ok": false,
+  "symbol": "PCS",
+  "asof": "2026-10-21",
+  "earnings_date": null,
+  "source": "FH",
+  "status": 200,
+  "error": "empty earningsCalendar"
+}

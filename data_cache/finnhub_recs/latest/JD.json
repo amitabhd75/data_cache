@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "9618.HK",
-    "period": "2026-09-01",
-    "strongBuy": 8,
-    "buy": 19,
+    "period": "2026-10-01",
+    "strongBuy": 9,
+    "buy": 15,
     "hold": 3,
     "sell": 0,
     "strongSell": 1
