@@ -1,9 +1,9 @@
 {
-  "ok": true,
+  "ok": false,
   "symbol": "LRCX",
-  "asof": "2026-10-21",
-  "earnings_date": "2026-10-21",
+  "asof": "2026-10-22",
+  "earnings_date": null,
   "source": "FH",
-  "status": null,
-  "error": null
+  "status": 200,
+  "error": "empty earningsCalendar"
 }
