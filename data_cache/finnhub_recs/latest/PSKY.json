@@ -1,14 +1,6 @@
 {
-  "ok": true,
+  "ok": false,
   "status": 200,
-  "data": {
-    "symbol": "PSKY",
-    "period": "2026-10-01",
-    "strongBuy": 1,
-    "buy": 3,
-    "hold": 13,
-    "sell": 8,
-    "strongSell": 4
-  },
-  "error": null
+  "data": null,
+  "error": "empty recommendation list"
 }

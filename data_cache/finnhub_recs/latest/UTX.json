@@ -1,6 +1,6 @@
 {
   "ok": false,
-  "status": null,
+  "status": 200,
   "data": null,
-  "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  "error": "empty recommendation list"
 }
