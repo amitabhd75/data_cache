@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "INTC",
+    "period": "2026-10-01",
+    "strongBuy": 4,
+    "buy": 16,
+    "hold": 33,
+    "sell": 2,
+    "strongSell": 0
+  },
+  "error": null
+}
