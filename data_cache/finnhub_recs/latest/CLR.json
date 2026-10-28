@@ -1,6 +1,14 @@
 {
-  "ok": false,
-  "status": null,
-  "data": null,
-  "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "CLR",
+    "period": "2022-11-01",
+    "strongBuy": 0,
+    "buy": 2,
+    "hold": 16,
+    "sell": 6,
+    "strongSell": 1
+  },
+  "error": null
 }
