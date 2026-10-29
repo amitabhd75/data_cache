@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "NKE",
+    "period": "2026-10-01",
+    "strongBuy": 9,
+    "buy": 7,
+    "hold": 26,
+    "sell": 6,
+    "strongSell": 0
+  },
+  "error": null
+}

@@ -1,9 +1,9 @@
 {
-  "ok": true,
+  "ok": false,
   "symbol": "FTV",
-  "asof": "2026-10-28",
-  "earnings_date": "2026-10-28",
+  "asof": "2026-10-29",
+  "earnings_date": null,
   "source": "FH",
-  "status": null,
-  "error": null
+  "status": 200,
+  "error": "empty earningsCalendar"
 }
