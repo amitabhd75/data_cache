@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "PHM",
+    "period": "2026-10-01",
+    "strongBuy": 4,
+    "buy": 10,
+    "hold": 6,
+    "sell": 2,
+    "strongSell": 0
+  },
+  "error": null
+}

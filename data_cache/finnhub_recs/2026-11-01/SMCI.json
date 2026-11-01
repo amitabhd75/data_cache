@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "SMCI",
+    "period": "2026-10-01",
+    "strongBuy": 0,
+    "buy": 4,
+    "hold": 14,
+    "sell": 5,
+    "strongSell": 2
+  },
+  "error": null
+}

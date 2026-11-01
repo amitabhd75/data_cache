@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "LIN",
+    "period": "2026-10-01",
+    "strongBuy": 5,
+    "buy": 18,
+    "hold": 8,
+    "sell": 2,
+    "strongSell": 0
+  },
+  "error": null
+}

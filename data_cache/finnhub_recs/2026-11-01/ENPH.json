@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "ENPH",
+    "period": "2026-10-01",
+    "strongBuy": 4,
+    "buy": 13,
+    "hold": 20,
+    "sell": 3,
+    "strongSell": 0
+  },
+  "error": null
+}

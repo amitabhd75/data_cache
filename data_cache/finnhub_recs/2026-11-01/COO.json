@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "COO",
+    "period": "2026-10-01",
+    "strongBuy": 3,
+    "buy": 5,
+    "hold": 14,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}

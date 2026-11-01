@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "WBD",
+    "period": "2026-10-01",
+    "strongBuy": 0,
+    "buy": 2,
+    "hold": 19,
+    "sell": 5,
+    "strongSell": 2
+  },
+  "error": null
+}

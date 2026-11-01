@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "CSCO",
+    "period": "2026-10-01",
+    "strongBuy": 6,
+    "buy": 17,
+    "hold": 12,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
+}
