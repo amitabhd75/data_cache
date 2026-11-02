@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "CME",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 2,
-    "buy": 9,
+    "buy": 11,
     "hold": 7,
-    "sell": 3,
+    "sell": 2,
     "strongSell": 0
   },
   "error": null

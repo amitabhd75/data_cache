@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "OI",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 5,
-    "buy": 7,
-    "hold": 4,
-    "sell": 2,
+    "buy": 5,
+    "hold": 5,
+    "sell": 1,
     "strongSell": 0
   },
   "error": null

@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "EVRG",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 7,
-    "buy": 6,
+    "buy": 9,
     "hold": 6,
     "sell": 0,
     "strongSell": 0

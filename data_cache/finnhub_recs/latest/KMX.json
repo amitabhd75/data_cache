@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "KMX",
-    "period": "2026-10-01",
-    "strongBuy": 4,
+    "period": "2026-11-01",
+    "strongBuy": 5,
     "buy": 2,
-    "hold": 18,
-    "sell": 1,
+    "hold": 17,
+    "sell": 0,
     "strongSell": 0
   },
   "error": null

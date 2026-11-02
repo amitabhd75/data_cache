@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "AVGO",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 17,
-    "buy": 35,
-    "hold": 4,
+    "buy": 37,
+    "hold": 3,
     "sell": 0,
     "strongSell": 0
   },

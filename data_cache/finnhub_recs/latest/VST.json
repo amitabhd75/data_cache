@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "VST",
-    "period": "2026-10-01",
-    "strongBuy": 7,
-    "buy": 15,
+    "period": "2026-11-01",
+    "strongBuy": 8,
+    "buy": 17,
     "hold": 2,
     "sell": 0,
     "strongSell": 0

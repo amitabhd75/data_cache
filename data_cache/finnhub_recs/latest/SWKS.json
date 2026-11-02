@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "SWKS",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 0,
-    "buy": 2,
-    "hold": 22,
+    "buy": 3,
+    "hold": 21,
     "sell": 4,
     "strongSell": 2
   },

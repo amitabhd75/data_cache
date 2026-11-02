@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "FANG",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 10,
-    "buy": 23,
+    "buy": 24,
     "hold": 5,
     "sell": 0,
     "strongSell": 0

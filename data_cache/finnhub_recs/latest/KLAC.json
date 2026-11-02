@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "KLAC",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 10,
     "buy": 14,
-    "hold": 9,
-    "sell": 0,
+    "hold": 8,
+    "sell": 1,
     "strongSell": 0
   },
   "error": null

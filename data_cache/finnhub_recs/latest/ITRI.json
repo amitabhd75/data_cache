@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "ITRI",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 5,
-    "buy": 12,
+    "buy": 11,
     "hold": 3,
     "sell": 0,
     "strongSell": 0

@@ -3,8 +3,8 @@
   "status": 200,
   "data": {
     "symbol": "NEE",
-    "period": "2026-10-01",
-    "strongBuy": 6,
+    "period": "2026-11-01",
+    "strongBuy": 7,
     "buy": 11,
     "hold": 8,
     "sell": 1,

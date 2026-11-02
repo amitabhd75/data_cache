@@ -3,8 +3,8 @@
   "status": 200,
   "data": {
     "symbol": "SNDK",
-    "period": "2026-10-01",
-    "strongBuy": 11,
+    "period": "2026-11-01",
+    "strongBuy": 12,
     "buy": 18,
     "hold": 5,
     "sell": 0,

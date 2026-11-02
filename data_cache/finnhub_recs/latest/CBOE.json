@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "CBOE",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 2,
-    "buy": 8,
-    "hold": 11,
-    "sell": 3,
+    "buy": 10,
+    "hold": 12,
+    "sell": 1,
     "strongSell": 0
   },
   "error": null

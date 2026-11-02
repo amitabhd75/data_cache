@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "BARC.L",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 3,
-    "buy": 13,
+    "buy": 14,
     "hold": 6,
-    "sell": 1,
+    "sell": 0,
     "strongSell": 0
   },
   "error": null

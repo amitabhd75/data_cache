@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "DPZ",
-    "period": "2026-10-01",
-    "strongBuy": 7,
+    "period": "2026-11-01",
+    "strongBuy": 6,
     "buy": 11,
-    "hold": 17,
+    "hold": 18,
     "sell": 1,
     "strongSell": 0
   },

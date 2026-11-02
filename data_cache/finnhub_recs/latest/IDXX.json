@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "IDXX",
-    "period": "2026-10-01",
-    "strongBuy": 7,
-    "buy": 7,
+    "period": "2026-11-01",
+    "strongBuy": 6,
+    "buy": 8,
     "hold": 7,
     "sell": 0,
     "strongSell": 0

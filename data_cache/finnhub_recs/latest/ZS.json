@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "ZS",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 16,
-    "buy": 29,
+    "buy": 30,
     "hold": 12,
     "sell": 0,
     "strongSell": 0

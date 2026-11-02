@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "HUN",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 2,
-    "buy": 4,
+    "buy": 5,
     "hold": 12,
     "sell": 2,
     "strongSell": 0

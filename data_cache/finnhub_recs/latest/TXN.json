@@ -3,12 +3,12 @@
   "status": 200,
   "data": {
     "symbol": "TXN",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 7,
-    "buy": 15,
+    "buy": 16,
     "hold": 15,
     "sell": 2,
-    "strongSell": 1
+    "strongSell": 0
   },
   "error": null
 }

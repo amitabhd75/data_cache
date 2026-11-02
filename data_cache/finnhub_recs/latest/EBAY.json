@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "EBAY",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 6,
     "buy": 11,
-    "hold": 20,
-    "sell": 1,
+    "hold": 21,
+    "sell": 0,
     "strongSell": 1
   },
   "error": null

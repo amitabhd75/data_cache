@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "LIN",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 5,
-    "buy": 18,
+    "buy": 19,
     "hold": 8,
     "sell": 2,
     "strongSell": 0

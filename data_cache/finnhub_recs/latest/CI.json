@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "CI",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 9,
-    "buy": 17,
+    "buy": 16,
     "hold": 9,
     "sell": 0,
     "strongSell": 0

@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "IP",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 6,
-    "buy": 11,
+    "buy": 10,
     "hold": 3,
     "sell": 1,
     "strongSell": 0

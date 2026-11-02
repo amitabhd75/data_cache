@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "CNH",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 5,
-    "buy": 10,
+    "buy": 11,
     "hold": 8,
-    "sell": 2,
+    "sell": 1,
     "strongSell": 0
   },
   "error": null

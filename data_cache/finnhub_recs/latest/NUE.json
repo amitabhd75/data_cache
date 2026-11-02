@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "NUE",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 5,
-    "buy": 12,
-    "hold": 5,
+    "buy": 13,
+    "hold": 4,
     "sell": 1,
     "strongSell": 0
   },

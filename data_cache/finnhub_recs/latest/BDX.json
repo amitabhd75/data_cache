@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "BDX",
-    "period": "2026-10-01",
-    "strongBuy": 5,
+    "period": "2026-11-01",
+    "strongBuy": 6,
     "buy": 6,
-    "hold": 9,
-    "sell": 0,
+    "hold": 8,
+    "sell": 1,
     "strongSell": 0
   },
   "error": null

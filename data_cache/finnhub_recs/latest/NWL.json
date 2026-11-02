@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "NWL",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 1,
     "buy": 5,
-    "hold": 5,
+    "hold": 6,
     "sell": 1,
     "strongSell": 0
   },

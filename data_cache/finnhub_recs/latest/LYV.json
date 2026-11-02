@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "LYV",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 8,
     "buy": 17,
-    "hold": 5,
-    "sell": 1,
+    "hold": 4,
+    "sell": 2,
     "strongSell": 0
   },
   "error": null

@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "DVN",
-    "period": "2026-10-01",
-    "strongBuy": 12,
-    "buy": 19,
+    "period": "2026-11-01",
+    "strongBuy": 11,
+    "buy": 20,
     "hold": 2,
     "sell": 1,
     "strongSell": 0

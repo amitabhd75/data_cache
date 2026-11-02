@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "XYL",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 8,
-    "buy": 10,
-    "hold": 8,
-    "sell": 0,
+    "buy": 8,
+    "hold": 9,
+    "sell": 1,
     "strongSell": 0
   },
   "error": null

@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "CFG",
-    "period": "2026-10-01",
-    "strongBuy": 5,
-    "buy": 14,
+    "period": "2026-11-01",
+    "strongBuy": 6,
+    "buy": 15,
     "hold": 4,
     "sell": 0,
     "strongSell": 0

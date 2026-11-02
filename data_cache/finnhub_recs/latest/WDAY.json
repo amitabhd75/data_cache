@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "WDAY",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 10,
-    "buy": 16,
-    "hold": 21,
+    "buy": 15,
+    "hold": 22,
     "sell": 2,
     "strongSell": 0
   },

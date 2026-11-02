@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "FE",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 5,
-    "buy": 11,
+    "buy": 13,
     "hold": 8,
     "sell": 0,
     "strongSell": 0

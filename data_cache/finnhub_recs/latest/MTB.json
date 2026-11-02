@@ -3,12 +3,12 @@
   "status": 200,
   "data": {
     "symbol": "MTB",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 3,
-    "buy": 6,
+    "buy": 7,
     "hold": 14,
     "sell": 1,
-    "strongSell": 0
+    "strongSell": 1
   },
   "error": null
 }

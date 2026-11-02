@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "ISRG",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 13,
-    "buy": 16,
-    "hold": 10,
+    "buy": 17,
+    "hold": 9,
     "sell": 1,
     "strongSell": 0
   },

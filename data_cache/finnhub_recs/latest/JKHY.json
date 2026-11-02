@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "JKHY",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 8,
-    "buy": 11,
+    "buy": 12,
     "hold": 6,
     "sell": 1,
     "strongSell": 0

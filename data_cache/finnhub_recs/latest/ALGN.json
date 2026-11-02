@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "ALGN",
-    "period": "2026-10-01",
-    "strongBuy": 6,
-    "buy": 8,
-    "hold": 8,
-    "sell": 1,
+    "period": "2026-11-01",
+    "strongBuy": 5,
+    "buy": 7,
+    "hold": 9,
+    "sell": 2,
     "strongSell": 0
   },
   "error": null

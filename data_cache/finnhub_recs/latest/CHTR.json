@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "CHTR",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 2,
     "buy": 3,
-    "hold": 15,
+    "hold": 14,
     "sell": 5,
     "strongSell": 4
   },

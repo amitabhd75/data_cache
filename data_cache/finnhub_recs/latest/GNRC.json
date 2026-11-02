@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "GNRC",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 10,
-    "buy": 11,
-    "hold": 7,
+    "buy": 13,
+    "hold": 6,
     "sell": 0,
     "strongSell": 0
   },

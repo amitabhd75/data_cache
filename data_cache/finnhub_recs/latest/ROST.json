@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "ROST",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 9,
-    "buy": 10,
-    "hold": 8,
+    "buy": 11,
+    "hold": 7,
     "sell": 0,
     "strongSell": 0
   },

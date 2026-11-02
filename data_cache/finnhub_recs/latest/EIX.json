@@ -3,12 +3,12 @@
   "status": 200,
   "data": {
     "symbol": "EIX",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 1,
     "buy": 1,
     "hold": 13,
     "sell": 7,
-    "strongSell": 2
+    "strongSell": 3
   },
   "error": null
 }

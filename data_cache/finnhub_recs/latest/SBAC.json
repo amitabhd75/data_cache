@@ -3,8 +3,8 @@
   "status": 200,
   "data": {
     "symbol": "SBAC",
-    "period": "2026-10-01",
-    "strongBuy": 4,
+    "period": "2026-11-01",
+    "strongBuy": 5,
     "buy": 13,
     "hold": 10,
     "sell": 0,

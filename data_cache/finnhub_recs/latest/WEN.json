@@ -3,12 +3,12 @@
   "status": 200,
   "data": {
     "symbol": "WEN",
-    "period": "2026-10-01",
-    "strongBuy": 2,
+    "period": "2026-11-01",
+    "strongBuy": 1,
     "buy": 1,
     "hold": 20,
-    "sell": 8,
-    "strongSell": 2
+    "sell": 6,
+    "strongSell": 3
   },
   "error": null
 }

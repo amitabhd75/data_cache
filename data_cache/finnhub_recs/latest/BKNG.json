@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "BKNG",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 13,
-    "buy": 25,
+    "buy": 24,
     "hold": 8,
     "sell": 0,
     "strongSell": 0

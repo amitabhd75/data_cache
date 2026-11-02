@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "LRCX",
-    "period": "2026-10-01",
-    "strongBuy": 10,
-    "buy": 25,
+    "period": "2026-11-01",
+    "strongBuy": 11,
+    "buy": 24,
     "hold": 5,
     "sell": 0,
     "strongSell": 0

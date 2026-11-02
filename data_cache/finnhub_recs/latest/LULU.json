@@ -3,12 +3,12 @@
   "status": 200,
   "data": {
     "symbol": "LULU",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 1,
     "buy": 1,
     "hold": 31,
     "sell": 6,
-    "strongSell": 2
+    "strongSell": 3
   },
   "error": null
 }

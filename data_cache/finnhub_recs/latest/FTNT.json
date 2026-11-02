@@ -3,12 +3,12 @@
   "status": 200,
   "data": {
     "symbol": "FTNT",
-    "period": "2026-10-01",
-    "strongBuy": 5,
-    "buy": 9,
-    "hold": 31,
-    "sell": 5,
-    "strongSell": 1
+    "period": "2026-11-01",
+    "strongBuy": 1,
+    "buy": 5,
+    "hold": 35,
+    "sell": 6,
+    "strongSell": 3
   },
   "error": null
 }

@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "ADBE",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 7,
-    "buy": 10,
-    "hold": 23,
-    "sell": 5,
+    "buy": 8,
+    "hold": 24,
+    "sell": 6,
     "strongSell": 0
   },
   "error": null

@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "MO",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 5,
     "buy": 6,
-    "hold": 9,
-    "sell": 2,
+    "hold": 10,
+    "sell": 1,
     "strongSell": 1
   },
   "error": null

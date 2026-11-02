@@ -3,11 +3,11 @@
   "status": 200,
   "data": {
     "symbol": "AAP",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 2,
     "buy": 0,
-    "hold": 25,
-    "sell": 7,
+    "hold": 24,
+    "sell": 8,
     "strongSell": 1
   },
   "error": null

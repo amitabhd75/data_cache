@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "EOG",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 6,
     "buy": 11,
-    "hold": 20,
+    "hold": 21,
     "sell": 0,
     "strongSell": 0
   },

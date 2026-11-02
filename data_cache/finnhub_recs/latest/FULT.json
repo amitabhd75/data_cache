@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "FULT",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 3,
-    "buy": 5,
-    "hold": 5,
+    "buy": 4,
+    "hold": 6,
     "sell": 0,
     "strongSell": 0
   },

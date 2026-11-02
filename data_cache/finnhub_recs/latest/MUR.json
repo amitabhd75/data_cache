@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "MUR",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 0,
     "buy": 3,
-    "hold": 13,
+    "hold": 14,
     "sell": 7,
     "strongSell": 1
   },

@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "HIG",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 2,
     "buy": 10,
-    "hold": 16,
+    "hold": 17,
     "sell": 0,
     "strongSell": 0
   },

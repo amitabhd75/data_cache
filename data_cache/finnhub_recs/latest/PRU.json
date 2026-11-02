@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "PRU",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 0,
     "buy": 0,
-    "hold": 16,
+    "hold": 17,
     "sell": 8,
     "strongSell": 1
   },

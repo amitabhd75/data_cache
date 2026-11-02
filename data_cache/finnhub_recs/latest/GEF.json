@@ -3,12 +3,12 @@
   "status": 200,
   "data": {
     "symbol": "GEF",
-    "period": "2026-10-01",
-    "strongBuy": 1,
-    "buy": 0,
-    "hold": 6,
-    "sell": 5,
-    "strongSell": 1
+    "period": "2026-11-01",
+    "strongBuy": 2,
+    "buy": 3,
+    "hold": 3,
+    "sell": 1,
+    "strongSell": 0
   },
   "error": null
 }

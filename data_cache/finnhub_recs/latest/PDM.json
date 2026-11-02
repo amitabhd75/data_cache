@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "PDM",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 1,
-    "buy": 3,
-    "hold": 4,
+    "buy": 4,
+    "hold": 3,
     "sell": 0,
     "strongSell": 0
   },

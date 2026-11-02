@@ -3,8 +3,8 @@
   "status": 200,
   "data": {
     "symbol": "MA",
-    "period": "2026-10-01",
-    "strongBuy": 13,
+    "period": "2026-11-01",
+    "strongBuy": 12,
     "buy": 36,
     "hold": 4,
     "sell": 0,

@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "KHC",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 1,
-    "buy": 0,
+    "buy": 1,
     "hold": 17,
     "sell": 7,
     "strongSell": 2

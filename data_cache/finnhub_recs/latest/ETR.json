@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "ETR",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 7,
-    "buy": 14,
+    "buy": 15,
     "hold": 7,
     "sell": 0,
     "strongSell": 0

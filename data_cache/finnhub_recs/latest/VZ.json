@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "VZ",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 7,
-    "buy": 10,
-    "hold": 18,
+    "buy": 11,
+    "hold": 16,
     "sell": 0,
     "strongSell": 0
   },

@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "GPN",
-    "period": "2026-10-01",
-    "strongBuy": 8,
+    "period": "2026-11-01",
+    "strongBuy": 10,
     "buy": 10,
-    "hold": 21,
+    "hold": 20,
     "sell": 2,
     "strongSell": 0
   },

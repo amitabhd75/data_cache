@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "UTHR",
-    "period": "2026-10-01",
-    "strongBuy": 6,
+    "period": "2026-11-01",
+    "strongBuy": 7,
     "buy": 11,
-    "hold": 4,
+    "hold": 3,
     "sell": 1,
     "strongSell": 0
   },

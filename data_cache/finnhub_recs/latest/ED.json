@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "ED",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 2,
-    "buy": 0,
+    "buy": 1,
     "hold": 12,
     "sell": 9,
     "strongSell": 3

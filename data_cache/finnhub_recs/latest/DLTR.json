@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "DLTR",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 3,
-    "buy": 12,
+    "buy": 13,
     "hold": 16,
     "sell": 4,
     "strongSell": 0

@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "WMB",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 8,
-    "buy": 17,
+    "buy": 18,
     "hold": 3,
     "sell": 1,
     "strongSell": 0

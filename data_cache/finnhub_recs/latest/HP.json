@@ -3,9 +3,9 @@
   "status": 200,
   "data": {
     "symbol": "HP",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 4,
-    "buy": 10,
+    "buy": 11,
     "hold": 8,
     "sell": 3,
     "strongSell": 0

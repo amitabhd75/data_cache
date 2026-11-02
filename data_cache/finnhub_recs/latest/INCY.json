@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "INCY",
-    "period": "2026-10-01",
-    "strongBuy": 8,
+    "period": "2026-11-01",
+    "strongBuy": 9,
     "buy": 10,
-    "hold": 17,
+    "hold": 16,
     "sell": 0,
     "strongSell": 0
   },

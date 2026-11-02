@@ -3,10 +3,10 @@
   "status": 200,
   "data": {
     "symbol": "COIN",
-    "period": "2026-10-01",
+    "period": "2026-11-01",
     "strongBuy": 10,
     "buy": 21,
-    "hold": 13,
+    "hold": 14,
     "sell": 1,
     "strongSell": 1
   },
