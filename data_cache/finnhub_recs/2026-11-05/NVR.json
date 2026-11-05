@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "NVR",
+    "period": "2026-11-01",
+    "strongBuy": 1,
+    "buy": 0,
+    "hold": 5,
+    "sell": 8,
+    "strongSell": 1
+  },
+  "error": null
+}

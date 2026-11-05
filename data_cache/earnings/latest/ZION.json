@@ -1,9 +1,9 @@
 {
   "ok": false,
   "symbol": "ZION",
-  "asof": "2026-11-04",
+  "asof": "2026-11-05",
   "earnings_date": null,
   "source": "FH",
-  "status": 200,
-  "error": "empty earningsCalendar"
+  "status": null,
+  "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
 }

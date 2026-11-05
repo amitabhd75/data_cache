@@ -1,9 +1,9 @@
 {
-  "ok": true,
+  "ok": false,
   "symbol": "OC",
-  "asof": "2026-11-04",
-  "earnings_date": "2026-11-04",
+  "asof": "2026-11-05",
+  "earnings_date": null,
   "source": "FH",
-  "status": null,
-  "error": null
+  "status": 200,
+  "error": "empty earningsCalendar"
 }
