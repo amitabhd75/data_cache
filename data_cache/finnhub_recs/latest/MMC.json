@@ -1,6 +1,6 @@
 {
   "ok": false,
-  "status": null,
+  "status": 200,
   "data": null,
-  "error": "HTTPSConnectionPool(host='finnhub.io', port=443): Read timed out. (read timeout=15)"
+  "error": "empty recommendation list"
 }

@@ -1,9 +1,9 @@
 {
-  "ok": false,
+  "ok": true,
   "symbol": "WSM",
-  "asof": "2026-11-05",
-  "earnings_date": null,
+  "asof": "2026-11-06",
+  "earnings_date": "2026-11-17",
   "source": "FH",
   "status": null,
-  "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  "error": null
 }

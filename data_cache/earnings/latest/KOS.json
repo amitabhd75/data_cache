@@ -1,9 +1,9 @@
 {
   "ok": false,
   "symbol": "KOS",
-  "asof": "2026-11-05",
+  "asof": "2026-11-06",
   "earnings_date": null,
   "source": "FH",
-  "status": null,
-  "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  "status": 200,
+  "error": "empty earningsCalendar"
 }
