@@ -1,9 +1,9 @@
 {
-  "ok": false,
+  "ok": true,
   "symbol": "CMC",
-  "asof": "2026-11-06",
-  "earnings_date": null,
+  "asof": "2026-11-07",
+  "earnings_date": "2027-01-06",
   "source": "FH",
-  "status": 200,
-  "error": "empty earningsCalendar"
+  "status": null,
+  "error": null
 }
