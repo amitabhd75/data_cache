@@ -1,9 +1,9 @@
 {
-  "ok": true,
+  "ok": false,
   "symbol": "BRK-B",
-  "asof": "2026-11-07",
-  "earnings_date": "2026-11-07",
+  "asof": "2026-11-08",
+  "earnings_date": null,
   "source": "FH",
-  "status": null,
-  "error": null
+  "status": 200,
+  "error": "empty earningsCalendar"
 }
