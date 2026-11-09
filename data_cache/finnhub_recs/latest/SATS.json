@@ -1,6 +1,14 @@
 {
-  "ok": false,
+  "ok": true,
   "status": 200,
-  "data": null,
-  "error": "empty recommendation list"
+  "data": {
+    "symbol": "ASST",
+    "period": "2026-11-01",
+    "strongBuy": 2,
+    "buy": 8,
+    "hold": 1,
+    "sell": 0,
+    "strongSell": 0
+  },
+  "error": null
 }
