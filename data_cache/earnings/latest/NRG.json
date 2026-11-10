@@ -1,9 +1,9 @@
 {
-  "ok": true,
+  "ok": false,
   "symbol": "NRG",
-  "asof": "2026-11-09",
-  "earnings_date": "2026-11-09",
+  "asof": "2026-11-10",
+  "earnings_date": null,
   "source": "FH",
-  "status": null,
-  "error": null
+  "status": 200,
+  "error": "empty earningsCalendar"
 }

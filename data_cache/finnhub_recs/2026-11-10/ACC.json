@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "ACC",
+    "period": "2022-08-01",
+    "strongBuy": 0,
+    "buy": 0,
+    "hold": 7,
+    "sell": 4,
+    "strongSell": 1
+  },
+  "error": null
+}
