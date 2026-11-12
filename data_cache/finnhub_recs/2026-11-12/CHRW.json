@@ -1,0 +1,6 @@
+{
+  "ok": false,
+  "status": null,
+  "data": null,
+  "error": "HTTPSConnectionPool(host='finnhub.io', port=443): Read timed out. (read timeout=15)"
+}
