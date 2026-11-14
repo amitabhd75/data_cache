@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "ALTR",
+    "period": "2025-03-01",
+    "strongBuy": 0,
+    "buy": 0,
+    "hold": 9,
+    "sell": 1,
+    "strongSell": 2
+  },
+  "error": null
+}
