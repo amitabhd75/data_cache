@@ -1,9 +1,9 @@
 {
-  "ok": false,
+  "ok": true,
   "symbol": "CFG",
-  "asof": "2026-11-15",
-  "earnings_date": null,
+  "asof": "2026-11-16",
+  "earnings_date": "2027-01-15",
   "source": "FH",
-  "status": 200,
-  "error": "empty earningsCalendar"
+  "status": null,
+  "error": null
 }

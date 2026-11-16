@@ -1,0 +1,9 @@
+{
+  "ok": false,
+  "symbol": "TRW",
+  "asof": "2026-11-16",
+  "earnings_date": null,
+  "source": "FH",
+  "status": null,
+  "error": "HTTPSConnectionPool(host='finnhub.io', port=443): Read timed out. (read timeout=15)"
+}
