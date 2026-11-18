@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "NATI",
+    "period": "2023-10-01",
+    "strongBuy": 0,
+    "buy": 0,
+    "hold": 7,
+    "sell": 1,
+    "strongSell": 2
+  },
+  "error": null
+}
