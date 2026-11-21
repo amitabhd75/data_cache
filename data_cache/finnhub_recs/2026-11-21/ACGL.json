@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": 200,
+  "data": {
+    "symbol": "ACGL",
+    "period": "2026-11-01",
+    "strongBuy": 5,
+    "buy": 11,
+    "hold": 11,
+    "sell": 1,
+    "strongSell": 0
+  },
+  "error": null
+}
