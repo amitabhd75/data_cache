@@ -1,9 +1,9 @@
 {
-  "ok": true,
+  "ok": false,
   "symbol": "BBY",
-  "asof": "2026-11-24",
-  "earnings_date": "2026-11-24",
+  "asof": "2026-11-25",
+  "earnings_date": null,
   "source": "FH",
-  "status": null,
-  "error": null
+  "status": 200,
+  "error": "empty earningsCalendar"
 }
